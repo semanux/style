@@ -1,0 +1,53 @@
+:root {
+  --color-name-english-vermillion: #d14641; /* English Vermillion */
+  --color-name-liver-dogs: #b16309; /* Liver Dogs */
+  --color-name-avocado: #668008; /* Avocado */
+  --color-name-celadon-green: #18847b; /* Celadon Green */
+  --color-name-cg-blue: #3b7c97; /* CG Blue */
+  --color-name-middle-blue-purple: #8467b0; /* Middle Blue Purple */
+  --color-name-medium-orchid: #b241d7; /* Medium Orchid */
+  --color-name-electric-purple: #bb00ff; /* Electric Purple */
+  --color-black: black;
+  --color-darkest-blue: #14141b;
+  --color-transparent-darkest-blue: #14141bE5;
+  --color-transparent-darker-gray: #222222E5;
+  --color-white: white;
+  --color-nearly-white: #f5f5f5;
+  --color-transparent-nearly-white: #f5f5f5E5;
+  --color-transparent-lighter-gray: #dadadaE5;
+  --color-gray: gray;
+  --color-light-gray: rgb(196, 196, 196);
+  --color-lighter-gray: rgb(220, 220, 220);
+  --color-dark-gray: #505050;
+  --color-darker-gray: #222222;
+  --color-sx-blue: #3b7c97;
+  --color-sx-dark-blue: #1d4455;
+  --color-sx-light-blue: #79a3b6;
+  --color-sx-lighter-blue: #add7e9;
+  --color-sx-transparent-dark-blue: #3b7c9780;
+  --color-sx-transparent-light-blue: #ade6ff80;
+  --color-sx-orange: #ff6424;
+  --color-sx-dark-orange: #8f3914;
+  --color-sx-darker-orange: #552814;
+  --color-sx-light-orange: #fda580;
+  --color-sx-transparent-dark-orange: #e3440080;
+  --color-sx-transparent-light-orange: #ff642480;
+  --color-sx-gold: #f1ad45;
+  --color-sx-dark-gold: #ce933b;
+  --color-sx-darker-gold: #9b6d27;
+  --color-success: #0b9e00;
+  --color-fail: #c20707;
+  --color-warn-dark: #eb8501;
+  --color-warn-light: #ffb24d;
+  --color-warn-lighter: #fdbe6d;
+  --color-dimmer: rgba(0, 0, 0, 0.9);
+  --color-dim: rgba(0, 0, 0, 0.6);
+  --color-black-50:rgba(0, 0, 0, 0.5);
+  --color-white-50: rgba(255, 255, 255, 0.5);
+  --color-black-25:rgba(0, 0, 0, 0.25);
+  --color-black-10: rgba(0, 0, 0, 0.1);
+  --color-black-5: rgba(0, 0, 0, 0.05);
+  --color-white-25: rgba(255, 255, 255, 0.25);
+  --color-white-10: rgba(255, 255, 255, 0.1);
+  --color-white-5: rgba(255, 255, 255, 0.05);
+}

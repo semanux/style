@@ -1,0 +1,94 @@
+:root {
+  --color-accent-primary: var(--color-sx-blue);
+  --color-accent-secondary: var(--color-sx-light-blue);
+  --color-accent-tertiary: var(--color-sx-lighter-blue);
+  --color-accent-quaternary: var(--color-sx-dark-blue);
+  --color-transparent-accent: var(--color-sx-transparent-dark-blue);
+  --color-complementary-primary: var(--color-sx-orange);
+  --color-complementary-secondary: var(--color-sx-light-orange);
+  --color-fill-primary: var(--color-nearly-white);
+  --color-fill-secondary: var(--color-lighter-gray);
+  --color-fill-tertiary: var(--color-white);
+  --color-transparent-fill-primary: var(--color-transparent-nearly-white);
+  --color-transparent-fill-secondary: var(--color-transparent-lighter-gray);
+  --color-high-contrast: var(--color-dark-gray);
+  --color-higher-contrast: var(--color-darker-gray);
+  --color-highest-contrast: var(--color-black);
+  --color-low-contrast: var(--color-light-gray);
+  --color-lower-contrast: var(--color-lighter-gray);
+  --color-lowest-contrast: var(--color-white);
+  --color-font-primary: var(--color-darker-gray);
+  --color-font-secondary: var(--color-dark-gray);
+  --color-font-tertiary: var(--color-light-gray);
+  --color-heading-primary: var(--color-black);
+  --color-peripheral-body: var(--color-light-gray);
+  --color-peripheral-bump: var(--color-lighter-gray);
+  --color-peripheral-button: var(--color-gray);
+  --color-dwell: var(--color-black-50); /* var(--color-sx-transparent-dark-blue); */
+  --color-fixation: var(--color-sx-transparent-dark-blue);
+  --color-trigger: var(--color-black-50);
+  --color-transparent-contrast-50: var(--color-black-50);
+  --color-transparent-contrast-25: var(--color-black-25);
+  --color-transparent-contrast-10: var(--color-black-10);
+  --color-transparent-contrast-5: var(--color-black-5);
+  --color-phong-light: var(--color-lighter-gray);
+  --color-phong-shadow: var(--color-light-gray);
+
+  --gradient-bump-primary: linear-gradient(
+    0deg,
+    var(--color-lighter-gray) 0%,
+    var(--color-white) 100%);
+
+  --gradient-bump-secondary: linear-gradient(
+    0deg,
+    var(--color-lighter-gray) 0%,
+    var(--color-nearly-white) 100%);
+}
+
+/* Colors in dark mode. */
+[data-theme="dark"] {
+  --color-accent-primary: var(--color-sx-orange);
+  --color-accent-secondary: var(--color-sx-dark-orange);
+  --color-accent-tertiary: var(--color-sx-darker-orange);
+  --color-accent-quaternary: var(--color-sx-light-blue);
+  --color-transparent-accent: var(--color-sx-transparent-light-orange);
+  --color-complementary-primary: var(--color-sx-blue);
+  --color-complementary-secondary: var(--color-sx-dark-blue);
+  --color-fill-primary: var(--color-darkest-blue);
+  --color-fill-secondary: var(--color-darker-gray);
+  --color-fill-tertiary: var(--color-black);
+  --color-transparent-fill-primary: var(--color-transparent-darkest-blue);
+  --color-transparent-fill-secondary: var(--color-transparent-darker-gray);
+  --color-high-contrast: var(--color-gray);
+  --color-higher-contrast: var(--color-lighter-gray);
+  --color-highest-contrast: var(--color-white);
+  --color-low-contrast: var(--color-dark-gray);
+  --color-lower-contrast: var(--color-darker-gray);
+  --color-lowest-contrast: var(--color-black);
+  --color-font-primary: var(--color-light-gray);
+  --color-font-secondary: var(--color-lighter-gray);
+  --color-font-tertiary: var(--color-dark-gray);
+  --color-heading-primary: var(--color-white);
+  --color-peripheral-body: var(--color-lighter-gray);
+  --color-peripheral-bump: var(--color-nearly-white);
+  --color-peripheral-button: var(--color-gray);
+  --color-dwell: var(--color-white-50); /* var(--color-sx-transparent-light-orange); */
+  --color-fixation: var(--color-sx-transparent-light-orange);
+  --color-trigger: var(--color-white-50);
+  --color-transparent-contrast-50: var(--color-white-50);
+  --color-transparent-contrast-25: var(--color-white-25);
+  --color-transparent-contrast-10: var(--color-white-10);
+  --color-transparent-contrast-5: var(--color-white-5);
+  --color-phong-light: var(--color-dark-gray);
+  --color-phong-shadow: var(--color-darker-gray);
+
+  --gradient-bump-primary: linear-gradient(
+    0deg,
+    var(--color-black) 0%,
+    var(--color-darker-gray) 100%);
+
+  --gradient-bump-secondary: linear-gradient(
+    0deg,
+    var(--color-darkest-blue) 0%,
+    var(--color-darkest-blue) 100%);
+}
