@@ -1,3 +1,8 @@
+@import "normalize.css";
+@import "simple-colors.css";
+@import "semantic-colors.css";
+@import "defines.css";
+
 :root {
   font-family: "Inter", sans-serif;
   font-feature-settings: "kern", "liga";
