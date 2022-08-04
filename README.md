@@ -1,5 +1,5 @@
 
-Relative imports within the respective files to not work for me.
+Relative imports within the respective files do not work for me.
 Thus, please import the following files yourself:
 
 ```css
