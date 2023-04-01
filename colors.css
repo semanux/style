@@ -1,62 +1,14 @@
 :root {
-  --color-name-english-vermillion: #d14641; /* English Vermillion */
-  --color-name-liver-dogs: #b16309; /* Liver Dogs */
-  --color-name-avocado: #668008; /* Avocado */
-  --color-name-celadon-green: #18847b; /* Celadon Green */
-  --color-name-cg-blue: #3b7c97; /* CG Blue */
-  --color-name-middle-blue-purple: #8467b0; /* Middle Blue Purple */
-  --color-name-medium-orchid: #b241d7; /* Medium Orchid */
-  --color-name-electric-purple: #bb00ff; /* Electric Purple */
-  --color-black: black;
-  --color-darkest-blue: #14141b;
-  --color-transparent-darkest-blue: #14141bE5;
-  --color-transparent-darker-gray: #222222E5;
-  --color-white: white;
-  --color-nearly-white: #f5f5f5;
-  --color-transparent-nearly-white: #f5f5f5E5;
-  --color-transparent-lighter-gray: #dadadaE5;
-  --color-gray: gray;
-  --color-light-gray: rgb(196, 196, 196);
-  --color-lighter-gray: rgb(220, 220, 220);
-  --color-dark-gray: #505050;
-  --color-darker-gray: #222222;
-  --color-sx-blue: #05A3BD;
-  --color-sx-dark-blue: #04788B;
-  --color-sx-light-blue: #07CDEE;
-  --color-sx-lighter-blue: #60E4FA;
-  --color-sx-transparent-dark-blue: #04788B80;
-  --color-sx-transparent-light-blue: #07CDEE80;
-  --color-sx-orange: #FF763D;
-  --color-sx-dark-orange: #FF520A;
-  --color-sx-darker-orange: #D63F00;
-  --color-sx-light-orange: #FF9A70;
-  --color-sx-transparent-dark-orange: #FF520A80;
-  --color-sx-transparent-light-orange: #FF9A7080;
-  --color-success: #0b9e00;
-  --color-fail: #c20707;
-  --color-warn-dark: #eb8501;
-  --color-warn-light: #ffb24d;
-  --color-warn-lighter: #fdbe6d;
-  --color-dimmer: rgba(0, 0, 0, 0.9);
-  --color-dim: rgba(0, 0, 0, 0.6);
-  --color-black-50:rgba(0, 0, 0, 0.5);
-  --color-white-50: rgba(255, 255, 255, 0.5);
-  --color-black-25:rgba(0, 0, 0, 0.25);
-  --color-black-10: rgba(0, 0, 0, 0.1);
-  --color-black-5: rgba(0, 0, 0, 0.05);
-  --color-white-25: rgba(255, 255, 255, 0.25);
-  --color-white-10: rgba(255, 255, 255, 0.1);
-  --color-white-5: rgba(255, 255, 255, 0.05);
-}
-
-:root {
 
   /* Light mode colors. */
   --lm-regular-bg: #ffffff;
   --lm-regular-fg: #000000;
   --lm-semanux-orange: #ff763d;
+  --lm-semanux-orange-50: #ff763d7f;
   --lm-semanux-teal: #05a3bd;
+  --lm-semanux-teal-50: #05a3bd7f;
   --lm-semanux-pink: #ea2dcb;
+  --lm-semanux-pink-50: #ea2dcb7f;
   --lm-semanux-yellow: #ffd129;
   --lm-semanux-green: #3af89a;
   --lm-semanux-rose: #f47495;
@@ -95,8 +47,11 @@
   --dm-regular-bg-pink: #28000d;
   --dm-regular-fg: #ffffff;
   --dm-semanux-orange: #ab4725;
+  --dm-semanux-orange-50: #ab47257f;
   --dm-semanux-teal: #117084;
+  --dm-semanux-teal-50: #1170847f;
   --dm-semanux-pink: #9c1b7f;
+  --dm-semanux-pink-50: #9c1b7f7f;
   --dm-semanux-yellow: #8a5d12;
   --dm-semanux-green: #2d835f;
   --dm-semanux-rose: #a2465f;
@@ -125,6 +80,51 @@
   --dm-special-bg-grad-pink: linear-gradient(to right, #620d46 0%, #631640 20%, #652336 100%);
   --dm-error-bg-grad: linear-gradient(to right, #d4000b 0%, #d01109 58%, #c73504 80%, #be5800 100%);
 
-  /* Other colors */
-  --quaternary: #ffffff;
+  /* Blacks. */
+  --black: black;
+  --black-90:rgba(0, 0, 0, 0.9);
+  --black-75:rgba(0, 0, 0, 0.75);
+  --black-50:rgba(0, 0, 0, 0.5);
+  --black-25:rgba(0, 0, 0, 0.25);
+  --black-10: rgba(0, 0, 0, 0.1);
+  --black-10: rgba(0, 0, 0, 0.05);
+
+  /* Whites. */
+  --white: white;
+  --white-90: rgba(255, 255, 255, 0.9);
+  --white-75: rgba(255, 255, 255, 0.75);
+  --white-50: rgba(255, 255, 255, 0.5);
+  --white-25: rgba(255, 255, 255, 0.25);
+  --white-10: rgba(255, 255, 255, 0.1);
+  --white-5: rgba(255, 255, 255, 0.05);
+
+  /* Grays. */
+  --gray: gray;
+  --gray-50: rgba(127, 127, 127, 0.5);
+
+  /* Light grays. */
+  --light-gray: #c4c4c4;
+  --light-gray-90: #c4c4c4e5;
+  --light-gray-75: #c4c4c4c0;
+  --light-gray-50: #c4c4c47f;
+  --lighter-gray: #dcdcdc;
+  --lighter-gray-90: #dcdcdce5;
+  --lighter-gray-75: #dcdcdcc0;
+  --lighter-gray-50: #dcdcdc7f;
+
+  /* Dark grays. */
+  --dark-gray: #505050;
+  --dark-gray-90: #50505035;
+  --dark-gray-75: #505050c0;
+  --dark-gray-50: #5050507f;
+  --darker-gray: #222222;
+  --darker-gray-90: #222222e5;
+  --darker-gray-75: #222222c0;
+  --darker-gray-50: #2222227f;
+
+  /* Other colors. TODO: Migrate to official color scheme! */
+  --darkest-blue: #14141b;
+  --success: #0b9e00;
+  --warn: #ffb24d;
+  --light-warn: #fdbe6d;
 }

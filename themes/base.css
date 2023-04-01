@@ -1,0 +1,61 @@
+[theme-mode="light"] {
+  --theme-font: var(--lm-regular-fg);
+  --theme-picker: var(--gray-50);
+  --theme-fill-primary: var(--white);
+  --theme-fill-secondary: var(--lighter-gray);
+  --theme-fill-tertiary: var(--light-gray);
+  --theme-accent-primary: var(--dark-gray);
+  --theme-accent-primary-50: var(--dark-gray-50);
+  --theme-accent-secondary: var(--gray);
+  --theme-accent-tertiary: var(--darker-gray);
+
+  /* Colors that are usually not touched by a theme. */
+  --theme-dwell: var(--black-50);
+  --theme-trigger: var(--black-50);
+  --theme-high-contrast: var(--dark-gray);
+  --theme-higher-contrast: var(--darker-gray);
+  --theme-highest-contrast: var(--black);
+  --theme-low-contrast: var(--light-gray);
+  --theme-lower-contrast: var(--lighter-gray);
+  --theme-lowest-contrast: var(--white);
+  --theme-fill-primary-90: var(--white-90);
+  --theme-fill-secondary-90: var(--lighter-gray-90);
+  --theme-contrast-50: var(--black-50);
+  --theme-contrast-25: var(--black-25);
+  --theme-contrast-10: var(--black-10);
+  --theme-contrast-5: var(--black-10);
+  --theme-peripheral-body: var(--light-gray);
+  --theme-peripheral-bump: var(--lighter-gray);
+  --theme-peripheral-button: var(--gray);
+}
+
+[theme-mode="dark"] {
+  --theme-font: var(--dm-regular-fg);
+  --theme-picker: var(--gray-50);
+  --theme-fill-primary: var(--dark-gray);
+  --theme-fill-secondary: var(--darker-gray);
+  --theme-fill-tertiary: var(--black);
+  --theme-accent-primary: var(--light-gray);
+  --theme-accent-primary-50: var(--light-gray-50);
+  --theme-accent-secondary: var(--gray);
+  --theme-accent-tertiary: var(--lighter-gray);
+
+  /* Colors that are usually not touched by a theme. */
+  --theme-dwell: var(--white-50);
+  --theme-trigger: var(--white-50);
+  --theme-high-contrast: var(--gray);
+  --theme-higher-contrast: var(--lighter-gray);
+  --theme-highest-contrast: var(--white);
+  --theme-low-contrast: var(--dark-gray);
+  --theme-lower-contrast: var(--darker-gray);
+  --theme-lowest-contrast: var(--black);
+  --theme-fill-primary-90: var(--black-90);
+  --theme-fill-secondary-90: var(--darker-gray-90);
+  --theme-contrast-50: var(--white-50);
+  --theme-contrast-25: var(--white-25);
+  --theme-contrast-10: var(--white-10);
+  --theme-contrast-5: var(--white-5);
+  --theme-peripheral-body: var(--lighter-gray);
+  --theme-peripheral-bump: var(--white);
+  --theme-peripheral-button: var(--gray);
+}

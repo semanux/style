@@ -1,0 +1,17 @@
+[theme-color="orange"][theme-mode="light"] {
+  --theme-picker: var(--gray-50);
+  --theme-accent-primary: var(--lm-semanux-orange);
+  --theme-accent-primary-50: var(--lm-semanux-orange-50);
+  --theme-accent-secondary: var(--lm-special-bg-orange);
+  --theme-accent-tertiary: var(--lm-special-fg-orange);
+}
+
+[theme-color="orange"][theme-mode="dark"] {
+  --theme-font: var(--dm-special-fg-orange);
+  --theme-picker: var(--gray-50);
+  --theme-fill-primary: var(--dm-regular-bg-orange);
+  --theme-accent-primary: var(--dm-semanux-orange);
+  --theme-accent-primary-50: var(--dm-semanux-orange-50);
+  --theme-accent-secondary: var(--dm-special-bg-orange);
+  --theme-accent-tertiary: var(--dm-special-fg-orange);
+}

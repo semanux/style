@@ -1,0 +1,17 @@
+[theme-color="pink"][theme-mode="light"] {
+  --theme-picker: var(--gray-50);
+  --theme-accent-primary: var(--lm-semanux-pink);
+  --theme-accent-primary-50: var(--lm-semanux-pink-50);
+  --theme-accent-secondary: var(--lm-special-bg-pink);
+  --theme-accent-tertiary: var(--lm-special-fg-pink);
+}
+
+[theme-color="pink"][theme-mode="dark"] {
+  --theme-font: var(--dm-special-fg-pink);
+  --theme-picker: var(--gray-50);
+  --theme-fill-primary: var(--dm-regular-bg-pink);
+  --theme-accent-primary: var(--dm-semanux-pink);
+  --theme-accent-primary-50: var(--dm-semanux-pink-50);
+  --theme-accent-secondary: var(--dm-special-bg-pink);
+  --theme-accent-tertiary: var(--dm-special-fg-pink);
+}
