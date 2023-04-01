@@ -1,4 +1,4 @@
-:root {
+[theme-color="orange"][theme-mode="light"] {
   --color-accent-primary: var(--color-sx-blue);
   --color-accent-secondary: var(--color-sx-light-blue);
   --color-accent-tertiary: var(--color-sx-lighter-blue);
@@ -45,8 +45,7 @@
     var(--color-nearly-white) 100%);
 }
 
-/* Colors in dark mode. */
-[data-theme="dark"] {
+[theme-color="orange"][theme-mode="dark"] {
   --color-accent-primary: var(--color-sx-orange);
   --color-accent-secondary: var(--color-sx-dark-orange);
   --color-accent-tertiary: var(--color-sx-darker-orange);
@@ -91,4 +90,20 @@
     0deg,
     var(--color-darkest-blue) 0%,
     var(--color-darkest-blue) 100%);
+}
+
+[theme-color="pink"][theme-mode="light"] {
+  --color-fill-primary: pink;
+}
+
+[theme-mode="dark"]{
+  --color-font-primary: red;
+}
+
+[theme-color="pink"][theme-mode="dark"] {
+  --color-fill-primary: purple;
+}
+
+[theme-color="humanelektronik"] {
+  --color-fill-primary: blue;
 }
