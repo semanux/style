@@ -4,6 +4,8 @@
   --theme-accent-primary-50: var(--lm-semanux-teal-50);
   --theme-accent-secondary: var(--lm-special-bg-teal);
   --theme-accent-tertiary: var(--lm-special-fg-teal);
+  --theme-accent-grad: var(--lm-semanux-grad-teal);
+  --theme-fill-grad: var(--lm-special-bg-grad-teal);
 }
 
 [theme-color="teal"][theme-mode="dark"] {
@@ -14,4 +16,6 @@
   --theme-accent-primary-50: var(--dm-semanux-teal-50);
   --theme-accent-secondary: var(--dm-special-bg-teal);
   --theme-accent-tertiary: var(--dm-special-fg-teal);
+  --theme-accent-grad: var(--dm-semanux-grad-teal);
+  --theme-fill-grad: var(--dm-special-bg-grad-teal);
 }

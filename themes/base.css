@@ -8,6 +8,8 @@
   --theme-accent-primary-50: var(--dark-gray-50);
   --theme-accent-secondary: var(--gray);
   --theme-accent-tertiary: var(--darker-gray);
+  --theme-accent-grad: var(--lm-semanux-grad-gray);
+  --theme-fill-grad: var(--lm-semanux-bg-grad-gray);
 
   /* Colors that are usually not touched by a theme. */
   --theme-dwell: var(--black-50);
@@ -39,6 +41,8 @@
   --theme-accent-primary-50: var(--light-gray-50);
   --theme-accent-secondary: var(--gray);
   --theme-accent-tertiary: var(--lighter-gray);
+  --theme-accent-grad: var(--dm-semanux-grad-gray);
+  --theme-fill-grad: var(--dm-semanux-bg-grad-gray);
 
   /* Colors that are usually not touched by a theme. */
   --theme-dwell: var(--white-50);

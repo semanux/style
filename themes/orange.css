@@ -4,6 +4,8 @@
   --theme-accent-primary-50: var(--lm-semanux-orange-50);
   --theme-accent-secondary: var(--lm-special-bg-orange);
   --theme-accent-tertiary: var(--lm-special-fg-orange);
+  --theme-accent-grad: var(--lm-semanux-grad-orange);
+  --theme-fill-grad: var(--lm-special-bg-grad-orange);
 }
 
 [theme-color="orange"][theme-mode="dark"] {
@@ -14,4 +16,6 @@
   --theme-accent-primary-50: var(--dm-semanux-orange-50);
   --theme-accent-secondary: var(--dm-special-bg-orange);
   --theme-accent-tertiary: var(--dm-special-fg-orange);
+  --theme-accent-grad: var(--dm-semanux-grad-orange);
+  --theme-fill-grad: var(--dm-special-bg-grad-orange);
 }

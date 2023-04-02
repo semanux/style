@@ -34,11 +34,13 @@
 
   /* Light mode gradients. */
   --lm-semanux-grad-orange: linear-gradient(to right, #ff763d 0%, #ff9a35 20%, #ffbf2d 42%, #ffd129 100%);
-  --lm-semanux-grad-teal: linear-gradient(to right, #05a3bd 0%, #3af89a 100%);;
+  --lm-semanux-grad-teal: linear-gradient(to right, #05a3bd 0%, #3af89a 100%);
   --lm-semanux-grad-pink:  linear-gradient(to right, #ea2dcb 0%, #ee49b5 20%, #f2669f 42%, #f47495 100%);
+  --lm-semanux-grad-gray: linear-gradient(to right, #eaeaea 0%, #cccccc 100%); /* TODO: Redefine properly! */
   --lm-special-bg-grad-orange: linear-gradient(to right, #ffd6c5 0%, #ffecbf 42%, #fff1be 100%);
   --lm-special-bg-grad-teal: linear-gradient(to right, #b4e4eb 0%, #c3fde1 100%);
   --lm-special-bg-grad-pink: linear-gradient(to right, #f9c0ef 0%, #fac9e9 20%, #fcd6df 100%);
+  --lm-semanux-bg-grad-gray: linear-gradient(to right, #f6f6f6 0%, #e2e2e2 100%); /* TODO: Redefine properly! */
   --lm-error-bg-grad: linear-gradient(to right, #ff000b 0%, #fb1209 58%, #f23804 80%, #e95d00 100%);
 
   /* Dark mode colors. */
@@ -75,9 +77,11 @@
   --dm-semanux-grad-orange: linear-gradient(to right, #ab4725 0%, #9e501e 20%, #905916 42%, #8a5d12 100%);
   --dm-semanux-grad-teal: linear-gradient(to right, #117084 0%, #2d835f 100%);
   --dm-semanux-grad-pink: linear-gradient(to right, #9c1b7f 0%, #9e2c72 20%, #a13e65 42%, #a2465f 100%);
+  --dm-semanux-grad-gray: linear-gradient(to right, #3c3c3c 0%, #7c7c7c 100%); /* TODO: Redefine properly! */
   --dm-special-bg-grad-orange: linear-gradient(to right, #6b2312 0%, #6b2e10 20%, #6b390d 42%, #6b3e0c 100%);
   --dm-special-bg-grad-teal: linear-gradient(to right, #1a4a59 0%, #295849 100%);
   --dm-special-bg-grad-pink: linear-gradient(to right, #620d46 0%, #631640 20%, #652336 100%);
+  --dm-semanux-bg-grad-gray: linear-gradient(to right, #272727 0%, #616161 100%); /* TODO: Redefine properly! */
   --dm-error-bg-grad: linear-gradient(to right, #d4000b 0%, #d01109 58%, #c73504 80%, #be5800 100%);
 
   /* Blacks. */
