@@ -8,7 +8,7 @@
   --theme-semanux-grad: var(--lm-semanux-grad-gray);
   --theme-special-bg-grad: var(--lm-semanux-bg-grad-gray);
   --theme-shadow: var(--black-25);
-  --theme-widget-bg: var(--white-90);
+  --theme-widget-bg: var(--white-75);
 
   /* Colors that are usually not touched by a theme. */
   --theme-dwell: var(--black-50);
@@ -38,7 +38,7 @@
   --theme-semanux-grad: var(--dm-semanux-grad-gray);
   --theme-special-bg-grad: var(--dm-semanux-bg-grad-gray);
   --theme-shadow: var(--white-25);
-  --theme-widget-bg: var(--black-90);
+  --theme-widget-bg: var(--black-75);
 
   /* Colors that are usually not touched by a theme. */
   --theme-dwell: var(--white-50);
