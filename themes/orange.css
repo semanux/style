@@ -1,21 +1,20 @@
 [theme-color="orange"][theme-mode="light"] {
-  --theme-picker: var(--gray-50);
-  --theme-accent-primary: var(--lm-semanux-orange);
-  --theme-accent-primary-50: var(--lm-semanux-orange-50);
-  --theme-accent-secondary: var(--lm-special-bg-orange);
-  --theme-accent-tertiary: var(--lm-special-fg-orange);
-  --theme-accent-grad: var(--lm-semanux-grad-orange);
-  --theme-fill-grad: var(--lm-special-bg-grad-orange);
+  --theme-semanux: var(--lm-semanux-orange);
+  --theme-semanux-50: var(--lm-semanux-orange-50);
+  --theme-special-bg: var(--lm-special-bg-orange);
+  --theme-special-fg: var(--lm-special-fg-orange);
+  --theme-semanux-grad: var(--lm-semanux-grad-orange);
+  --theme-special-bg-grad: var(--lm-special-bg-grad-orange);
 }
 
 [theme-color="orange"][theme-mode="dark"] {
-  --theme-font: var(--dm-special-fg-orange);
-  --theme-picker: var(--gray-50);
-  --theme-fill-primary: var(--dm-regular-bg-orange);
-  --theme-accent-primary: var(--dm-semanux-orange);
-  --theme-accent-primary-50: var(--dm-semanux-orange-50);
-  --theme-accent-secondary: var(--dm-special-bg-orange);
-  --theme-accent-tertiary: var(--dm-special-fg-orange);
-  --theme-accent-grad: var(--dm-semanux-grad-orange);
-  --theme-fill-grad: var(--dm-special-bg-grad-orange);
+  --theme-fg: var(--dm-special-fg-orange);
+  --theme-bg: var(--dm-regular-bg-orange);
+  --theme-semanux: var(--dm-semanux-orange);
+  --theme-semanux-50: var(--dm-semanux-orange-50);
+  --theme-special-bg: var(--dm-special-bg-orange);
+  --theme-special-fg: var(--dm-special-fg-orange);
+  --theme-semanux-grad: var(--dm-semanux-grad-orange);
+  --theme-special-bg-grad: var(--dm-special-bg-grad-orange);
+  --theme-shadow: var(--dm-special-fg-orange-25);
 }

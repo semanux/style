@@ -1,21 +1,20 @@
 [theme-color="teal"][theme-mode="light"] {
-  --theme-picker: var(--gray-50);
-  --theme-accent-primary: var(--lm-semanux-teal);
-  --theme-accent-primary-50: var(--lm-semanux-teal-50);
-  --theme-accent-secondary: var(--lm-special-bg-teal);
-  --theme-accent-tertiary: var(--lm-special-fg-teal);
-  --theme-accent-grad: var(--lm-semanux-grad-teal);
-  --theme-fill-grad: var(--lm-special-bg-grad-teal);
+  --theme-semanux: var(--lm-semanux-teal);
+  --theme-semanux-50: var(--lm-semanux-teal-50);
+  --theme-special-bg: var(--lm-special-bg-teal);
+  --theme-special-fg: var(--lm-special-fg-teal);
+  --theme-semanux-grad: var(--lm-semanux-grad-teal);
+  --theme-special-bg-grad: var(--lm-special-bg-grad-teal);
 }
 
 [theme-color="teal"][theme-mode="dark"] {
-  --theme-font: var(--dm-special-fg-teal);
-  --theme-picker: var(--gray-50);
-  --theme-fill-primary: var(--dm-regular-bg-teal);
-  --theme-accent-primary: var(--dm-semanux-teal);
-  --theme-accent-primary-50: var(--dm-semanux-teal-50);
-  --theme-accent-secondary: var(--dm-special-bg-teal);
-  --theme-accent-tertiary: var(--dm-special-fg-teal);
-  --theme-accent-grad: var(--dm-semanux-grad-teal);
-  --theme-fill-grad: var(--dm-special-bg-grad-teal);
+  --theme-fg: var(--dm-special-fg-teal);
+  --theme-bg: var(--dm-regular-bg-teal);
+  --theme-semanux: var(--dm-semanux-teal);
+  --theme-semanux-50: var(--dm-semanux-teal-50);
+  --theme-special-bg: var(--dm-special-bg-teal);
+  --theme-special-fg: var(--dm-special-fg-teal);
+  --theme-semanux-grad: var(--dm-semanux-grad-teal);
+  --theme-special-bg-grad: var(--dm-special-bg-grad-teal);
+  --theme-shadow: var(--dm-special-fg-teal-25);
 }

@@ -1,11 +1,6 @@
 :root {
-  --high-roundness: 0; /* 2rem; */
-  --medium-roundness: 0; /* 1.25rem; */
-  --low-roundness: 0; /* 0.5rem; */
-  --thinest-border-radius: 0.05rem;
-  --thin-border-radius: 0.15rem;
-  --box-shadow-light: 0 0 5rem rgba(white, 0.25);
-  --box-shadow-dark: 0 0 5rem rgba(black, 0.25);
+  --thinest-border-width: 0.05rem;
+  --thin-border-width: 0.15rem;
   --bottom-bar-height: 0.25rem;
-  --button-padding: 0.5rem;
+  --button-padding: 0.6rem;
 }

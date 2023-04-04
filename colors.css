@@ -14,7 +14,7 @@
   --lm-semanux-rose: #f47495;
   --lm-special-bg-orange: #ffd6c5;
   --lm-special-bg-teal: #b4e4eb;
-  --lm-special-bg-pink: #f9c0ef ;
+  --lm-special-bg-pink: #f9c0ef;
   --lm-special-bg-yellow: #fff1be;
   --lm-special-bg-green: #c4fde1;
   --lm-special-bg-pink: #f9c0ef;
@@ -58,14 +58,17 @@
   --dm-semanux-green: #2d835f;
   --dm-semanux-rose: #a2465f;
   --dm-special-bg-orange: #6b2312;
-  --dm-special-bg-yellow: #6b3e0c;
   --dm-special-bg-teal: #1a4a59;
-  --dm-special-bg-green: #295849;
   --dm-special-bg-pink: #620d46;
+  --dm-special-bg-yellow: #6b3e0c;
+  --dm-special-bg-green: #295849;
   --dm-special-bg-rose: #652336;
   --dm-special-fg-orange: #ffdbcd;
+  --dm-special-fg-orange-25: #ffdbcd40;
   --dm-special-fg-teal: #caf6fd;
+  --dm-special-fg-teal-25: #caf6fd40;
   --dm-special-fg-pink: #f8b7ed;
+  --dm-special-fg-pink-25: #f8b7ed40;
   --dm-special-fg-yellow: #ffe174;
   --dm-special-fg-green: #bdfcdd;
   --dm-special-fg-rose: #f9bccc;
@@ -127,7 +130,6 @@
   --darker-gray-50: #2222227f;
 
   /* Other colors. TODO: Migrate to official color scheme! */
-  --darkest-blue: #14141b;
   --success: #0b9e00;
   --warn: #ffb24d;
   --light-warn: #fdbe6d;
