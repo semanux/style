@@ -8,7 +8,6 @@
 }
 
 [theme-color="pink"][theme-mode="dark"] {
-  --theme-fg: var(--dm-special-fg-pink);
   --theme-bg: var(--dm-regular-bg-pink);
   --theme-semanux: var(--dm-semanux-pink);
   --theme-semanux-50: var(--dm-semanux-pink-50);

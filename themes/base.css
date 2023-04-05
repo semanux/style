@@ -1,6 +1,6 @@
 [theme-mode="light"] {
   --theme-fg: var(--lm-regular-fg);
-  --theme-bg: var(--white);
+  --theme-bg: var(--lm-regular-bg);
   --theme-semanux: var(--dark-gray);
   --theme-semanux-50: var(--dark-gray-50);
   --theme-special-bg: var(--gray);
@@ -11,7 +11,7 @@
   --theme-widget-bg: var(--white-75);
 
   /* Colors that are usually not touched by a theme. */
-  --theme-dwell: var(--black-50);
+  --theme-dwell: var(--black-75);
   --theme-trigger: var(--black-50);
   --theme-high-contrast: var(--dark-gray);
   --theme-higher-contrast: var(--darker-gray);
@@ -30,7 +30,7 @@
 
 [theme-mode="dark"] {
   --theme-fg: var(--dm-regular-fg);
-  --theme-bg: var(--dark-gray);
+  --theme-bg: var(--dm-regular-bg);
   --theme-semanux: var(--light-gray);
   --theme-semanux-50: var(--light-gray-50);
   --theme-special-bg: var(--gray);
@@ -41,7 +41,7 @@
   --theme-widget-bg: var(--black-75);
 
   /* Colors that are usually not touched by a theme. */
-  --theme-dwell: var(--white-50);
+  --theme-dwell: var(--white-75);
   --theme-trigger: var(--white-50);
   --theme-high-contrast: var(--gray);
   --theme-higher-contrast: var(--lighter-gray);

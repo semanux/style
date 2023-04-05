@@ -8,7 +8,6 @@
 }
 
 [theme-color="teal"][theme-mode="dark"] {
-  --theme-fg: var(--dm-special-fg-teal);
   --theme-bg: var(--dm-regular-bg-teal);
   --theme-semanux: var(--dm-semanux-teal);
   --theme-semanux-50: var(--dm-semanux-teal-50);
