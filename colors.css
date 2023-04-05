@@ -150,4 +150,11 @@
   --success: #0b9e00;
   --warn: #ffb24d;
   --light-warn: #fdbe6d;
+
+  /* Humanelektronik */
+  --he-blue: #004f9e;
+  --he-blue-50: #004f9e7f;
+  --he-beige: #ead9c7;
+  --he-beige-50: #ead9c77f;
+  --he-yellow: #f0d627;
 }
