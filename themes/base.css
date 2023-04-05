@@ -27,6 +27,8 @@
   --theme-peripheral-body: var(--light-gray);
   --theme-peripheral-bump: var(--lighter-gray);
   --theme-peripheral-button: var(--gray);
+  --theme-neutral-bg-grad: var(--lm-neutral-bg-grad);
+  --theme-neutral-med: var(--lm-neutral-med);
 }
 
 [theme-mode="dark"] {
@@ -58,4 +60,6 @@
   --theme-peripheral-body: var(--lighter-gray);
   --theme-peripheral-bump: var(--white);
   --theme-peripheral-button: var(--gray);
+  --theme-neutral-bg-grad: var(--dm-neutral-bg-grad);
+  --theme-neutral-med: var(--lm-neutral-med);
 }

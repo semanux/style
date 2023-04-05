@@ -32,11 +32,11 @@
   --lm-error-bg-2: #e95d00;
   --lm-error-fg: #820006;
 
-  /* Defined as semanux lm color with 10% opacity over white and itself an alpha of 90%. */
-  --lm-glass-orange: #fff1ebe5;
-  --lm-glass-teal: #e6f6f8e5;
-  --lm-glass-pink: #fdeafae5;
-  --lm-glass-gray: var(--white-90); /* TODO update after gray scheme is defined. */
+  /* Defined as semanux lm color with 10% opacity over white and itself an alpha of 95%. */
+  --lm-glass-orange: #fff1ebf2;
+  --lm-glass-teal: #e6f6f8f2;
+  --lm-glass-pink: #fdeafaf2;
+  --lm-glass-gray: #fffffff2; /* TODO update after gray scheme is defined. */
 
   /* Light mode gradients. */
   --lm-semanux-grad-orange: linear-gradient(to right, #ff763d 0%, #ff9a35 20%, #ffbf2d 42%, #ffd129 100%);
@@ -48,6 +48,7 @@
   --lm-special-bg-grad-pink: linear-gradient(to right, #f9c0ef 0%, #fac9e9 20%, #fcd6df 100%);
   --lm-semanux-bg-grad-gray: linear-gradient(to right, #f6f6f6 0%, #e2e2e2 100%); /* TODO: Redefine properly! */
   --lm-error-bg-grad: linear-gradient(to right, #ff000b 0%, #fb1209 58%, #f23804 80%, #e95d00 100%);
+  --lm-neutral-bg-grad: linear-gradient(to right, #eaeaea 0%, #cccccc 100%); /* TODO: Redefine properly! */
 
   /* Dark mode colors. */
   --dm-regular-bg-orange: #2c0000;
@@ -83,11 +84,11 @@
   --dm-error-bg-2: #be5800;
   --dm-error-fg: #ffabb0;
 
-  /* Defined as semanux lm (!) color with 10% opacity over black and itself an alpha of 90%. */
-  --dm-glass-orange: #1a0c06e5;
-  --dm-glass-teal: #011113e5;
-  --dm-glass-pink: #180515e5;
-  --dm-glass-gray: var(--black-90); /* TODO update after gray scheme is defined. */
+  /* Defined as semanux lm (!) color with 10% opacity over black and itself an alpha of 95%. */
+  --dm-glass-orange: #1a0c06f2;
+  --dm-glass-teal: #011113f2;
+  --dm-glass-pink: #180515f2;
+  --dm-glass-gray: #000000f2; /* TODO update after gray scheme is defined. */
 
   /* Dark mode gradients. */
   --dm-semanux-grad-orange: linear-gradient(to right, #ab4725 0%, #9e501e 20%, #905916 42%, #8a5d12 100%);
@@ -99,6 +100,7 @@
   --dm-special-bg-grad-pink: linear-gradient(to right, #620d46 0%, #631640 20%, #652336 100%);
   --dm-semanux-bg-grad-gray: linear-gradient(to right, #272727 0%, #616161 100%); /* TODO: Redefine properly! */
   --dm-error-bg-grad: linear-gradient(to right, #d4000b 0%, #d01109 58%, #c73504 80%, #be5800 100%);
+  --dm-neutral-bg-grad: linear-gradient(to right, #eaeaea 0%, #cccccc 100%); /* TODO: Redefine properly! */
 
   /* Blacks. */
   --black: black;

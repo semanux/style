@@ -8,16 +8,18 @@
 @import "themes/humanelektronik.css";
 
 :root {
-  font-family: "Inter", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-barlow: "Barlow", sans-serif;
+  font-family: var(--font-inter);
   font-feature-settings: "kern", "liga";
   font-size: 12pt;
   line-height: 1.4;
-  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
   z-index: 0;
   color: var(--theme-fg);
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Barlow", sans-serif;
+  font-family: var(--font-barlow);
   font-weight: 700;
 }

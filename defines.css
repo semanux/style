@@ -2,5 +2,6 @@
   --thinest-border-width: 0.05rem;
   --thin-border-width: 0.15rem;
   --bottom-bar-height: 0.25rem;
-  --button-padding: 0.6rem;
+  --button-padding-v: 0.5rem; /* vertical */
+  --button-padding-h: 1rem; /* horizontal */
 }
