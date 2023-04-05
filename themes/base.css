@@ -1,11 +1,11 @@
 [theme-mode="light"] {
   --theme-fg: var(--lm-regular-fg);
   --theme-bg: var(--lm-regular-bg);
-  --theme-semanux: var(--dark-gray);
-  --theme-semanux-50: var(--dark-gray-50);
+  --theme-accent: var(--dark-gray);
+  --theme-accent-50: var(--dark-gray-50);
   --theme-special-fg: var(--darker-gray);
-  --theme-semanux-grad: var(--lm-semanux-grad-gray);
-  --theme-special-bg-grad: var(--lm-semanux-bg-grad-gray);
+  --theme-accent-fill: var(--lm-semanux-grad-gray);
+  --theme-special-bg: var(--lm-semanux-bg-grad-gray);
   --theme-shadow: var(--black-25);
   --theme-glass: var(--lm-glass-gray);
 
@@ -33,11 +33,11 @@
 [theme-mode="dark"] {
   --theme-fg: var(--dm-regular-fg);
   --theme-bg: var(--dm-regular-bg);
-  --theme-semanux: var(--light-gray);
-  --theme-semanux-50: var(--light-gray-50);
+  --theme-accent: var(--light-gray);
+  --theme-accent-50: var(--light-gray-50);
   --theme-special-fg: var(--lighter-gray);
-  --theme-semanux-grad: var(--dm-semanux-grad-gray);
-  --theme-special-bg-grad: var(--dm-semanux-bg-grad-gray);
+  --theme-accent-fill: var(--dm-semanux-grad-gray);
+  --theme-special-bg: var(--dm-semanux-bg-grad-gray);
   --theme-shadow: var(--white-25);
   --theme-glass: var(--dm-glass-gray);
 
