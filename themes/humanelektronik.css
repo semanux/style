@@ -1,7 +1,6 @@
 [theme-color="humanelektronik"][theme-mode="light"] {
   --theme-semanux: var(--he-blue);
   --theme-semanux-50: var(--he-blue-50);
-  --theme-special-bg: var(--he-beige);
   --theme-special-fg: var(--he-blue);
   --theme-semanux-grad: var(--he-blue);
   --theme-special-bg-grad: var(--he-beige);
@@ -10,7 +9,6 @@
 [theme-color="humanelektronik"][theme-mode="dark"] {
   --theme-semanux: var(--he-beige);
   --theme-semanux-50: var(--he-beige-50);
-  --theme-special-bg: var(--he-blue);
   --theme-special-fg: var(--he-beige);
   --theme-semanux-grad: var(--he-beige);
   --theme-special-bg-grad: var(--he-blue);
