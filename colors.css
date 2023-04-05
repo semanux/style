@@ -32,6 +32,12 @@
   --lm-error-bg-2: #e95d00;
   --lm-error-fg: #820006;
 
+  /* Defined as semanux lm color with 10% opacity over white and itself an alpha of 90%. */
+  --lm-glass-orange: #fff1ebe5;
+  --lm-glass-teal: #e6f6f8e5;
+  --lm-glass-pink: #fdeafae5;
+  --lm-glass-gray: var(--white-90); /* TODO update after gray scheme is defined. */
+
   /* Light mode gradients. */
   --lm-semanux-grad-orange: linear-gradient(to right, #ff763d 0%, #ff9a35 20%, #ffbf2d 42%, #ffd129 100%);
   --lm-semanux-grad-teal: linear-gradient(to right, #05a3bd 0%, #3af89a 100%);
@@ -77,6 +83,12 @@
   --dm-error-bg-2: #be5800;
   --dm-error-fg: #ffabb0;
 
+  /* Defined as semanux lm (!) color with 10% opacity over black and itself an alpha of 90%. */
+  --dm-glass-orange: #1a0c06e5;
+  --dm-glass-teal: #011113e5;
+  --dm-glass-pink: #180515e5;
+  --dm-glass-gray: var(--black-90); /* TODO update after gray scheme is defined. */
+
   /* Dark mode gradients. */
   --dm-semanux-grad-orange: linear-gradient(to right, #ab4725 0%, #9e501e 20%, #905916 42%, #8a5d12 100%);
   --dm-semanux-grad-teal: linear-gradient(to right, #117084 0%, #2d835f 100%);
@@ -94,8 +106,9 @@
   --black-75:rgba(0, 0, 0, 0.75);
   --black-50:rgba(0, 0, 0, 0.5);
   --black-25:rgba(0, 0, 0, 0.25);
+  --black-15: rgba(0, 0, 0, 0.15);
   --black-10: rgba(0, 0, 0, 0.1);
-  --black-10: rgba(0, 0, 0, 0.05);
+  --black-5: rgba(0, 0, 0, 0.05);
 
   /* Whites. */
   --white: white;
@@ -103,6 +116,7 @@
   --white-75: rgba(255, 255, 255, 0.75);
   --white-50: rgba(255, 255, 255, 0.5);
   --white-25: rgba(255, 255, 255, 0.25);
+  --white-15: rgba(255, 255, 255, 0.15);
   --white-10: rgba(255, 255, 255, 0.1);
   --white-5: rgba(255, 255, 255, 0.05);
 

@@ -8,10 +8,10 @@
   --theme-semanux-grad: var(--lm-semanux-grad-gray);
   --theme-special-bg-grad: var(--lm-semanux-bg-grad-gray);
   --theme-shadow: var(--black-25);
-  --theme-widget-bg: var(--white-75);
+  --theme-glass: var(--lm-glass-gray);
 
   /* Colors that are usually not touched by a theme. */
-  --theme-dwell: var(--black-75);
+  --theme-dwell: var(--black-50);
   --theme-trigger: var(--black-50);
   --theme-high-contrast: var(--dark-gray);
   --theme-higher-contrast: var(--darker-gray);
@@ -21,6 +21,7 @@
   --theme-lowest-contrast: var(--white);
   --theme-contrast-50: var(--black-50);
   --theme-contrast-25: var(--black-25);
+  --theme-contrast-15: var(--black-15);
   --theme-contrast-10: var(--black-10);
   --theme-contrast-5: var(--black-10);
   --theme-peripheral-body: var(--light-gray);
@@ -38,10 +39,10 @@
   --theme-semanux-grad: var(--dm-semanux-grad-gray);
   --theme-special-bg-grad: var(--dm-semanux-bg-grad-gray);
   --theme-shadow: var(--white-25);
-  --theme-widget-bg: var(--black-75);
+  --theme-glass: var(--dm-glass-gray);
 
   /* Colors that are usually not touched by a theme. */
-  --theme-dwell: var(--white-75);
+  --theme-dwell: var(--white-50);
   --theme-trigger: var(--white-50);
   --theme-high-contrast: var(--gray);
   --theme-higher-contrast: var(--lighter-gray);
@@ -51,6 +52,7 @@
   --theme-lowest-contrast: var(--black);
   --theme-contrast-50: var(--white-50);
   --theme-contrast-25: var(--white-25);
+  --theme-contrast-15: var(--white-15);
   --theme-contrast-10: var(--white-10);
   --theme-contrast-5: var(--white-5);
   --theme-peripheral-body: var(--lighter-gray);

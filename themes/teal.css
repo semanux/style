@@ -5,6 +5,7 @@
   --theme-special-fg: var(--lm-special-fg-teal);
   --theme-semanux-grad: var(--lm-semanux-grad-teal);
   --theme-special-bg-grad: var(--lm-special-bg-grad-teal);
+  --theme-glass: var(--lm-glass-teal);
 }
 
 [theme-color="teal"][theme-mode="dark"] {
@@ -16,4 +17,5 @@
   --theme-semanux-grad: var(--dm-semanux-grad-teal);
   --theme-special-bg-grad: var(--dm-special-bg-grad-teal);
   --theme-shadow: var(--dm-special-fg-teal-25);
+  --theme-glass: var(--dm-glass-teal);
 }

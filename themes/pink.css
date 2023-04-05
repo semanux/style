@@ -5,6 +5,7 @@
   --theme-special-fg: var(--lm-special-fg-pink);
   --theme-semanux-grad: var(--lm-semanux-grad-pink);
   --theme-special-bg-grad: var(--lm-special-bg-grad-pink);
+  --theme-glass: var(--lm-glass-pink);
 }
 
 [theme-color="pink"][theme-mode="dark"] {
@@ -16,4 +17,5 @@
   --theme-semanux-grad: var(--dm-semanux-grad-pink);
   --theme-special-bg-grad: var(--dm-special-bg-grad-pink);
   --theme-shadow: var(--dm-special-fg-pink-25);
+  --theme-glass: var(--dm-glass-pink);
 }

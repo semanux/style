@@ -5,6 +5,7 @@
   --theme-special-fg: var(--lm-special-fg-orange);
   --theme-semanux-grad: var(--lm-semanux-grad-orange);
   --theme-special-bg-grad: var(--lm-special-bg-grad-orange);
+  --theme-glass: var(--lm-glass-orange);
 }
 
 [theme-color="orange"][theme-mode="dark"] {
@@ -16,4 +17,5 @@
   --theme-semanux-grad: var(--dm-semanux-grad-orange);
   --theme-special-bg-grad: var(--dm-special-bg-grad-orange);
   --theme-shadow: var(--dm-special-fg-orange-25);
+  --theme-glass: var(--dm-glass-orange);
 }
