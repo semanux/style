@@ -14,7 +14,7 @@
   font-feature-settings: "kern", "liga";
   font-size: 12pt;
   line-height: 1.4;
-  text-rendering: geometricPrecision;
+  text-rendering: optimizeLegibility;
   z-index: 0;
   color: var(--theme-fg);
 }

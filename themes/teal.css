@@ -4,6 +4,7 @@
   --theme-special-fg: var(--lm-special-fg-teal);
   --theme-accent-fill: var(--lm-semanux-grad-teal);
   --theme-special-bg: var(--lm-special-bg-grad-teal);
+  --theme-stacked-bg: var(--lm-stacked-bg-grad-teal);
   --theme-glass: var(--lm-glass-teal);
 }
 
@@ -14,6 +15,7 @@
   --theme-special-fg: var(--dm-special-fg-teal);
   --theme-accent-fill: var(--dm-semanux-grad-teal);
   --theme-special-bg: var(--dm-special-bg-grad-teal);
+  --theme-stacked-bg: var(--dm-stacked-bg-grad-teal);
   --theme-shadow: var(--dm-special-fg-teal-25);
   --theme-glass: var(--dm-glass-teal);
 }
