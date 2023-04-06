@@ -18,4 +18,5 @@
   --theme-stacked-bg: var(--dm-stacked-bg-grad-teal);
   --theme-shadow: var(--dm-special-fg-teal-25);
   --theme-glass: var(--dm-glass-teal);
+  --theme-wave-stroke: var(--lm-semanux-grad-teal);
 }

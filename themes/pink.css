@@ -18,4 +18,5 @@
   --theme-stacked-bg: var(--dm-stacked-bg-grad-pink);
   --theme-shadow: var(--dm-special-fg-pink-25);
   --theme-glass: var(--dm-glass-pink);
+  --theme-wave-stroke: var(--lm-semanux-grad-pink);
 }

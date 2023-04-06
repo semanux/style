@@ -15,7 +15,8 @@
   --theme-special-fg: var(--dm-special-fg-orange);
   --theme-accent-fill: var(--dm-semanux-grad-orange);
   --theme-special-bg: var(--dm-special-bg-grad-orange);
-  --theme-stacked-bg: var(--dm-stacked-bg-grad-teal);
+  --theme-stacked-bg: var(--dm-stacked-bg-grad-orange);
   --theme-shadow: var(--dm-special-fg-orange-25);
   --theme-glass: var(--dm-glass-orange);
+  --theme-wave-stroke: var(--lm-semanux-grad-orange);
 }

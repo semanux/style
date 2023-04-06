@@ -9,6 +9,7 @@
   --theme-stacked-bg: var(--lm-stacked-bg-grad-gray);
   --theme-shadow: var(--black-25);
   --theme-glass: var(--lm-glass-gray);
+  --theme-wave-stroke: var(--black);
 
   /* Colors that are usually not touched by a theme. */
   --theme-dwell: var(--black-50);
@@ -42,6 +43,7 @@
   --theme-stacked-bg: var(--dm-stacked-bg-grad-gray);
   --theme-shadow: var(--white-25);
   --theme-glass: var(--dm-glass-gray);
+  --theme-wave-stroke: var(--white);
 
   /* Colors that are usually not touched by a theme. */
   --theme-dwell: var(--white-50);
