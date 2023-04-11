@@ -10,6 +10,7 @@
 :root {
   --font-inter: "Inter", sans-serif;
   --font-barlow: "Barlow", sans-serif;
+  --font-mono: "JetBrainsMono", monospace;
   font-family: var(--font-inter);
   font-feature-settings: "kern", "liga";
   font-size: 13pt;

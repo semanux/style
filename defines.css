@@ -6,6 +6,7 @@
   --button-padding-h: 1.25rem; /* horizontal */
   --glow-radius: 0.25rem;
   --soft-shadow-radius: 64px;
-  --focus-outline-width: 3px;
+  --focus-outline-width: 2px;
+  --focus-color: var(--theme-highest-contrast);
   --key-padding: 0.25rem;
 }
