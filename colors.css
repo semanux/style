@@ -120,7 +120,7 @@
   --dm-stacked-bg-grad-pink: linear-gradient(to right, #8b176e 0%, #8d2563 20%, #8f3457 42%, #903b52 100%);
   --dm-stacked-bg-grad-gray: linear-gradient(to right, #272727 0%, #616161 100%); /* TODO: Redefine properly! */
   --dm-error-bg-grad: linear-gradient(to right, #d4000b 0%, #d01109 58%, #c73504 80%, #be5800 100%);
-  --dm-neutral-bg-grad: linear-gradient(to right, #eaeaea 0%, #cccccc 100%); /* TODO: Redefine properly! */
+  --dm-neutral-bg-grad: linear-gradient(to right, #323232 0%, #525252 100%); /* TODO: Redefine properly! */
 
   /* Blacks. */
   --black: black;
