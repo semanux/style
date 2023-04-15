@@ -29,7 +29,13 @@
   --theme-peripheral-bump: var(--lighter-gray);
   --theme-peripheral-button: var(--gray);
   --theme-neutral-bg-grad: var(--lm-neutral-bg-grad);
-  --theme-neutral-med: var(--lm-neutral-med);
+  --theme-neutral-med: var(--lm-neutral-med); /* TODO: What is this good for? */
+  --theme-error-fg: var(--lm-error-fg);
+  --theme-error-bg: var(--lm-error-bg-grad);
+  --theme-warn-fg: var(--lm-warn-fg);
+  --theme-warn-bg: var(--lm-warn-bg-grad);
+  --theme-success-fg: var(--lm-success-fg);
+  --theme-success-bg: var(--lm-success-bg-grad);
 }
 
 [theme-mode="dark"] {
@@ -64,4 +70,10 @@
   --theme-peripheral-button: var(--gray);
   --theme-neutral-bg-grad: var(--dm-neutral-bg-grad);
   --theme-neutral-med: var(--lm-neutral-med);
+  --theme-error-fg: var(--dm-error-fg);
+  --theme-error-bg: var(--dm-error-bg-grad);
+  --theme-warn-fg: var(--dm-warn-fg);
+  --theme-warn-bg: var(--dm-warn-bg-grad);
+  --theme-success-fg: var(--dm-success-fg);
+  --theme-success-bg: var(--dm-success-bg-grad);
 }

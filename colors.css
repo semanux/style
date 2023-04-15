@@ -37,6 +37,8 @@
   --lm-error-bg-1: #ff000b;
   --lm-error-bg-2: #e95d00;
   --lm-error-fg: #820006;
+  --lm-warn-fg: #3d3f00; /* TODO: Redefine properly! */
+  --lm-success-fg: #042800; /* TODO: Redefine properly! */
 
   /* Defined as semanux lm color with 10% opacity over white and itself an alpha of 95%. */
   --lm-glass-orange: #fff1ebf2;
@@ -58,6 +60,8 @@
   --lm-stacked-bg-grad-pink: linear-gradient(to right, #f594e4 0%, #f7a2da 20%, #f9b0d0 42%, #fab7cb 100%);
   --lm-stacked-bg-grad-gray: linear-gradient(to right, #f6f6f6 0%, #e2e2e2 100%); /* TODO: Redefine properly! */
   --lm-error-bg-grad: linear-gradient(to right, #ff000b 0%, #fb1209 58%, #f23804 80%, #e95d00 100%);
+  --lm-warn-bg-grad: linear-gradient(to right, #d4cd00 0%, #bebe00 100%); /* TODO: Redefine properly! */
+  --lm-success-bg-grad: linear-gradient(to right, #00d42a 0%, #00be00 100%); /* TODO: Redefine properly! */
   --lm-neutral-bg-grad: linear-gradient(to right, #eaeaea 0%, #cccccc 100%); /* TODO: Redefine properly! */
 
   /* Dark mode colors. */
@@ -99,6 +103,8 @@
   --dm-error-bg-1: #d4000b;
   --dm-error-bg-2: #be5800;
   --dm-error-fg: #ffabb0;
+  --dm-warn-fg: #fffa71; /* TODO: Redefine properly! */
+  --dm-success-fg: #c6ffd2; /* TODO: Redefine properly! */
 
   /* Defined as semanux lm (!) color with 10% opacity over black and itself an alpha of 95%. */
   --dm-glass-orange: #1a0c06f2;
@@ -120,6 +126,8 @@
   --dm-stacked-bg-grad-pink: linear-gradient(to right, #8b176e 0%, #8d2563 20%, #8f3457 42%, #903b52 100%);
   --dm-stacked-bg-grad-gray: linear-gradient(to right, #272727 0%, #616161 100%); /* TODO: Redefine properly! */
   --dm-error-bg-grad: linear-gradient(to right, #d4000b 0%, #d01109 58%, #c73504 80%, #be5800 100%);
+  --dm-warn-bg-grad: linear-gradient(to right, #d4cd00 0%, #bebe00 100%); /* TODO: Redefine properly! */
+  --dm-success-bg-grad: linear-gradient(to right, #00d42a 0%, #00be00 100%); /* TODO: Redefine properly! */
   --dm-neutral-bg-grad: linear-gradient(to right, #323232 0%, #525252 100%); /* TODO: Redefine properly! */
 
   /* Blacks. */
