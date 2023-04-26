@@ -29,6 +29,7 @@
   --theme-peripheral-bump: var(--lighter-gray);
   --theme-peripheral-button: var(--gray);
   --theme-neutral-bg-grad: var(--lm-special-bg-grad-gray);
+  --theme-neutral-med: var(--gray);
   --theme-error-fg: var(--lm-error-fg);
   --theme-error-bg: var(--lm-error-bg-grad);
   --theme-warn-fg: var(--lm-warn-fg);
@@ -68,6 +69,7 @@
   --theme-peripheral-bump: var(--white);
   --theme-peripheral-button: var(--gray);
   --theme-neutral-bg-grad: var(--dm-special-bg-grad-gray);
+  --theme-neutral-med: var(--gray);
   --theme-error-fg: var(--dm-error-fg);
   --theme-error-bg: var(--dm-error-bg-grad);
   --theme-warn-fg: var(--dm-warn-fg);
