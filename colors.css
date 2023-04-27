@@ -39,11 +39,18 @@
   --lm-stacked-bg-green: #9bfccc;
   --lm-stacked-bg-rose: #fab7cb;
   --lm-stacked-bg-platinum: #e8e8ea;
-  --lm-error-bg-1: #ff000b;
-  --lm-error-bg-2: #e95d00;
-  --lm-error-fg: #820006;
-  --lm-warn-fg: #3d3f00; /* TODO: Redefine properly! */
-  --lm-success-fg: #042800; /* TODO: Redefine properly! */
+  --lm-status-fg-info: #003951;
+  --lm-status-fg-warning: #5e4201;
+  --lm-status-fg-error: #490000;
+  --lm-status-fg-success: #005a07;
+  --lm-status-bg-info-1: #8dc9ff;
+  --lm-status-bg-info-2: #aff4f4;
+  --lm-status-bg-warning-1: #fcf785;
+  --lm-status-bg-warning-2: #ffdd75;
+  --lm-status-bg-error-1: #ff868b;
+  --lm-status-bg-error-2: #ffb059;
+  --lm-status-bg-success-1: #a0ffa8;
+  --lm-status-bg-success-2: #ecf783;
 
   /* Defined as semanux lm color with 10% opacity over white and itself an alpha of 95%. */
   --lm-glass-orange: #fff1ebf2;
@@ -64,9 +71,10 @@
   --lm-stacked-bg-grad-teal: linear-gradient(to right, #80d1dd 0%, #9bfccc 100%);
   --lm-stacked-bg-grad-pink: linear-gradient(to right, #f594e4 0%, #f7a2da 20%, #f9b0d0 42%, #fab7cb 100%);
   --lm-stacked-bg-grad-gray: linear-gradient(to right, #c0c6c9 0%, #e8e8ea 100%);
-  --lm-error-bg-grad: linear-gradient(to right, #ff000b 0%, #fb1209 58%, #f23804 80%, #e95d00 100%);
-  --lm-warn-bg-grad: linear-gradient(to right, #d4cd00 0%, #bebe00 100%); /* TODO: Redefine properly! */
-  --lm-success-bg-grad: linear-gradient(to right, #00d42a 0%, #00be00 100%); /* TODO: Redefine properly! */
+  --lm-status-bg-grad-info: linear-gradient(to right, #8dc9ff 0%, #aff4f4 100%);
+  --lm-status-bg-grad-warning: linear-gradient(to right, #fcf785 0%, #ffdd75 100%);
+  --lm-status-bg-grad-error: linear-gradient(to right, #ff868b 0%, #ffb059 100%);
+  --lm-status-bg-grad-success: linear-gradient(to right, #a0ffa8 0%, #ecf783 100%);
 
   /* Dark mode colors. */
   --dm-regular-bg-orange: #2c0000;
@@ -114,11 +122,18 @@
   --dm-stacked-bg-green: #2d805d;
   --dm-stacked-bg-rose: #903b52;
   --dm-stacked-bg-platinum: #6b6b6c;
-  --dm-error-bg-1: #d4000b;
-  --dm-error-bg-2: #be5800;
-  --dm-error-fg: #ffabb0;
-  --dm-warn-fg: #fffa71; /* TODO: Redefine properly! */
-  --dm-success-fg: #c6ffd2; /* TODO: Redefine properly! */
+  --dm-status-fg-info: #dffafb;
+  --dm-status-fg-warning: #fff0da;
+  --dm-status-fg-error: #ffd0b1;
+  --dm-status-fg-success: #e0e7b4;
+  --dm-status-bg-info-1: #00666e;
+  --dm-status-bg-info-2: #00497e;
+  --dm-status-bg-warning-1: #8a6900;
+  --dm-status-bg-warning-2: #874000;
+  --dm-status-bg-error-1: #981c00;
+  --dm-status-bg-error-2: #590000;
+  --dm-status-bg-success-1: #01512d;
+  --dm-status-bg-success-2: #3a5709;
 
   /* Defined as semanux lm (!) color with 10% opacity over black and itself an alpha of 95%. */
   --dm-glass-orange: #1a0c06f2;
@@ -139,10 +154,10 @@
   --dm-stacked-bg-grad-teal: linear-gradient(to right, #146577 0%, #2d805d 100%);
   --dm-stacked-bg-grad-pink: linear-gradient(to right, #8b176e 0%, #8d2563 20%, #8f3457 42%, #903b52 100%);
   --dm-stacked-bg-grad-gray: linear-gradient(to right, #4a484a 0%, #515052 53%, #6b6b6c 100%);
-  --dm-error-bg-grad: linear-gradient(to right, #d4000b 0%, #d01109 58%, #c73504 80%, #be5800 100%);
-  --dm-warn-bg-grad: linear-gradient(to right, #d4cd00 0%, #bebe00 100%); /* TODO: Redefine properly! */
-  --dm-success-bg-grad: linear-gradient(to right, #00d42a 0%, #00be00 100%); /* TODO: Redefine properly! */
-  --dm-neutral-bg-grad: linear-gradient(to right, #323232 0%, #525252 100%); /* TODO: Redefine properly! */
+  --dm-status-bg-grad-info: linear-gradient(to right, #00666e 0%, #00497e 100%);
+  --dm-status-bg-grad-warning: linear-gradient(to right, #8a6900 0%, #874000 100%);
+  --dm-status-bg-grad-error: linear-gradient(to right, #981c00 0%, #590000 100%);
+  --dm-status-bg-grad-success: linear-gradient(to right, #01512d 0%, #3a5709 100%);
 
   /* Blacks. */
   --black: black;
@@ -187,11 +202,6 @@
   --darker-gray-90: #222222e5;
   --darker-gray-75: #222222c0;
   --darker-gray-50: #2222227f;
-
-  /* Other colors. TODO: Migrate to official color scheme! */
-  --success: #0b9e00;
-  --warn: #ffb24d;
-  --light-warn: #fdbe6d;
 
   /* Humanelektronik */
   --he-blue: #004f9e;

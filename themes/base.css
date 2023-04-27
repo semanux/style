@@ -30,12 +30,14 @@
   --theme-peripheral-button: var(--gray);
   --theme-neutral-bg-grad: var(--lm-special-bg-grad-gray);
   --theme-neutral-med: var(--gray);
-  --theme-error-fg: var(--lm-error-fg);
-  --theme-error-bg: var(--lm-error-bg-grad);
-  --theme-warn-fg: var(--lm-warn-fg);
-  --theme-warn-bg: var(--lm-warn-bg-grad);
-  --theme-success-fg: var(--lm-success-fg);
-  --theme-success-bg: var(--lm-success-bg-grad);
+  --theme-info-fg: var(--lm-status-fg-info);
+  --theme-info-bg: var(--lm-status-bg-grad-info);
+  --theme-warning-fg: var(--lm-status-fg-warning);
+  --theme-warning-bg: var(--lm-status-bg-grad-warning);
+  --theme-error-fg: var(--lm-status-fg-error);
+  --theme-error-bg: var(--lm-status-bg-grad-error);
+  --theme-success-fg: var(--lm-status-fg-success);
+  --theme-success-bg: var(--lm-status-bg-grad-success);
 }
 
 [theme-mode="dark"] {
@@ -70,10 +72,12 @@
   --theme-peripheral-button: var(--gray);
   --theme-neutral-bg-grad: var(--dm-special-bg-grad-gray);
   --theme-neutral-med: var(--gray);
-  --theme-error-fg: var(--dm-error-fg);
-  --theme-error-bg: var(--dm-error-bg-grad);
-  --theme-warn-fg: var(--dm-warn-fg);
-  --theme-warn-bg: var(--dm-warn-bg-grad);
-  --theme-success-fg: var(--dm-success-fg);
-  --theme-success-bg: var(--dm-success-bg-grad);
+  --theme-info-fg: var(--dm-status-fg-info);
+  --theme-info-bg: var(--dm-status-bg-grad-info);
+  --theme-warning-fg: var(--dm-status-fg-warning);
+  --theme-warning-bg: var(--dm-status-bg-grad-warning);
+  --theme-error-fg: var(--dm-status-fg-error);
+  --theme-error-bg: var(--dm-status-bg-grad-error);
+  --theme-success-fg: var(--dm-status-fg-success);
+  --theme-success-bg: var(--dm-status-bg-grad-success);
 }
