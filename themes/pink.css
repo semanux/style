@@ -4,6 +4,7 @@
   --theme-special-fg: var(--lm-special-fg-pink);
   --theme-accent-fill: var(--lm-semanux-grad-pink);
   --theme-special-bg: var(--lm-special-bg-grad-pink);
+  --theme-special-skewed-bg: var(--lm-special-bg-grad-pink-skewed);
   --theme-stacked-bg: var(--lm-stacked-bg-grad-pink);
   --theme-glass: var(--lm-glass-pink);
 }
@@ -15,6 +16,7 @@
   --theme-special-fg: var(--dm-special-fg-pink);
   --theme-accent-fill: var(--dm-semanux-grad-pink);
   --theme-special-bg: var(--dm-special-bg-grad-pink);
+  --theme-special-skewed-bg: var(--dm-special-bg-grad-pink-skewed);
   --theme-stacked-bg: var(--dm-stacked-bg-grad-pink);
   --theme-shadow: var(--dm-special-fg-pink-25);
   --theme-glass: var(--dm-glass-pink);

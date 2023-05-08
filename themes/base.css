@@ -6,6 +6,7 @@
   --theme-special-fg: var(--lm-special-fg-gray);
   --theme-accent-fill: var(--lm-semanux-grad-gray);
   --theme-special-bg: var(--lm-special-bg-grad-gray);
+  --theme-special-skewed-bg: var(--lm-special-bg-grad-gray-skewed);
   --theme-stacked-bg: var(--lm-stacked-bg-grad-gray);
   --theme-shadow: var(--black-25);
   --theme-glass: var(--lm-glass-gray);
@@ -48,6 +49,7 @@
   --theme-special-fg: var(--dm-special-fg-gray);
   --theme-accent-fill: var(--dm-semanux-grad-gray);
   --theme-special-bg: var(--dm-special-bg-grad-gray);
+  --theme-special-skewed-bg: var(--dm-special-bg-grad-gray-skewed);
   --theme-stacked-bg: var(--dm-stacked-bg-grad-gray);
   --theme-shadow: var(--white-25);
   --theme-glass: var(--dm-glass-gray);

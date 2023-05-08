@@ -67,6 +67,10 @@
   --lm-special-bg-grad-teal: linear-gradient(to right, #b4e4eb 0%, #c3fde1 100%);
   --lm-special-bg-grad-pink: linear-gradient(to right, #f9c0ef 0%, #fac9e9 20%, #fcd6df 100%);
   --lm-special-bg-grad-gray: linear-gradient(to right, #dbdee0 0%, #f2f2f3 100%);
+  --lm-special-bg-grad-orange-skewed: linear-gradient(45deg, #ffd6c5 0%, #ffecbf 42%, #fff1be 100%);
+  --lm-special-bg-grad-teal-skewed: linear-gradient(45deg, #b4e4eb 0%, #c3fde1 100%);
+  --lm-special-bg-grad-pink-skewed: linear-gradient(45deg, #f9c0ef 0%, #fac9e9 20%, #fcd6df 100%);
+  --lm-special-bg-grad-gray-skewed: linear-gradient(45deg, #dbdee0 0%, #f2f2f3 100%);
   --lm-stacked-bg-grad-orange: linear-gradient(to right, #ffba9c 0%, #ffcc98 20%, #ffde94 42%, #ffe792 100%);
   --lm-stacked-bg-grad-teal: linear-gradient(to right, #80d1dd 0%, #9bfccc 100%);
   --lm-stacked-bg-grad-pink: linear-gradient(to right, #f594e4 0%, #f7a2da 20%, #f9b0d0 42%, #fab7cb 100%);
@@ -150,6 +154,10 @@
   --dm-special-bg-grad-teal: linear-gradient(to right, #1a4a59 0%, #295849 100%);
   --dm-special-bg-grad-pink: linear-gradient(to right, #620d46 0%, #631640 20%, #652336 100%);
   --dm-special-bg-grad-gray: linear-gradient(to right, #403f40 0%, #444445 53%, #535354 100%);
+  --dm-special-bg-grad-orange-skewed: linear-gradient(45deg, #6b2312 0%, #6b2e10 20%, #6b390d 42%, #6b3e0c 100%);
+  --dm-special-bg-grad-teal-skewed: linear-gradient(45deg, #1a4a59 0%, #295849 100%);
+  --dm-special-bg-grad-pink-skewed: linear-gradient(45deg, #620d46 0%, #631640 20%, #652336 100%);
+  --dm-special-bg-grad-gray-skewed: linear-gradient(45deg, #403f40 0%, #444445 53%, #535354 100%);
   --dm-stacked-bg-grad-orange: linear-gradient(to right, #973e1e 0%, #97501b 20%, #976217 42%, #976a15 100%);
   --dm-stacked-bg-grad-teal: linear-gradient(to right, #146577 0%, #2d805d 100%);
   --dm-stacked-bg-grad-pink: linear-gradient(to right, #8b176e 0%, #8d2563 20%, #8f3457 42%, #903b52 100%);
