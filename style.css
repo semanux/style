@@ -11,7 +11,8 @@
   --font-inter: "Inter", sans-serif;
   --font-barlow: "Barlow", sans-serif;
   --font-mono: "JetBrainsMono", monospace;
-  font-family: var(--font-inter);
+  --font-emoji: "NotoColorEmoji";
+  font-family: var(--font-inter), var(--font-emoji);
   font-size: 13pt;
   line-height: 1.4;
   font-feature-settings: "kern", "liga";
@@ -23,4 +24,17 @@
 h1, h2, h3, h4, h5 {
   font-family: var(--font-barlow);
   font-weight: bold;
+}
+
+a {
+  color: var(--theme-special-fg);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 75%;
+  margin: 0.5rem 0;
+  display: block;
 }
