@@ -26,6 +26,7 @@
   --theme-contrast-15: var(--black-15);
   --theme-contrast-10: var(--black-10);
   --theme-contrast-5: var(--black-10);
+  --theme-scollbar: var(--black-10);
   --theme-peripheral-body: var(--light-gray);
   --theme-peripheral-bump: var(--lighter-gray);
   --theme-peripheral-button: var(--gray);
@@ -79,6 +80,7 @@
   --theme-contrast-15: var(--white-15);
   --theme-contrast-10: var(--white-10);
   --theme-contrast-5: var(--white-5);
+  --theme-scollbar: var(--black-50);
   --theme-peripheral-body: var(--lighter-gray);
   --theme-peripheral-bump: var(--white);
   --theme-peripheral-button: var(--gray);
