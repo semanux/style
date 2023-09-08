@@ -38,3 +38,37 @@ code {
   margin: 0.5rem 0;
   display: block;
 }
+
+/* Not required since :focus-visible is implemented? */
+div:focus,
+a:focus,
+input:focus,
+button:focus,
+select:focus {
+  outline: none;
+}
+
+div:focus-visible,
+a:focus-visible,
+input:focus-visible,
+button:focus-visible,
+select:focus-visible {
+  outline: var(--focus-outline-width) solid var(--focus-color);
+  z-index: 1; /* TODO: Better be relative to the context. */
+  /* outline-offset: 5px; */
+  border-radius: 0; /* iOS Safari has default border radius. */
+}
+
+div:active,
+a:active,
+input:active,
+button:active,
+select:active {
+  outline: none;
+}
+
+/* Make outline of links have an offset. Assumption is that
+a link has often no padding, but inputs and others have. */
+a:focus-visible {
+  outline-offset: 3px;
+}
