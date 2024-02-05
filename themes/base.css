@@ -1,13 +1,13 @@
 [theme-mode="light"] {
   --theme-fg: var(--lm-regular-fg);
   --theme-bg: var(--lm-regular-bg);
-  --theme-accent: var(--lm-semanux-gray);
-  --theme-accent-50: var(--lm-semanux-gray-50);
+  --theme-accent: var(--lm-special-gray);
+  --theme-accent-50: var(--lm-special-gray-50);
   --theme-special-fg: var(--lm-special-fg-gray);
-  --theme-accent-fill: var(--lm-semanux-grad-gray);
+  --theme-accent-fill: var(--lm-special-grad-gray);
   --theme-special-bg: var(--lm-special-bg-grad-gray);
   --theme-special-skewed-bg: var(--lm-special-bg-grad-gray-skewed);
-  --theme-stacked-bg: var(--lm-stacked-bg-grad-gray);
+  --theme-special-stacked-bg: var(--lm-special-stacked-bg-grad-gray);
   --theme-shadow: var(--black-25);
   --theme-glass: var(--lm-glass-gray);
   --theme-wave-stroke: var(--black);
@@ -42,26 +42,26 @@
   --theme-success-bg: var(--lm-status-bg-grad-success);
 
   /* Simple colors, i.e., for the trace. */
-  --theme-orange: var(--lm-semanux-orange);
-  --theme-teal: var(--lm-semanux-teal);
-  --theme-pink: var(--lm-semanux-pink);
-  --theme-gray: var(--lm-semanux-gray);
-  --theme-yellow: var(--lm-semanux-yellow);
-  --theme-green: var(--lm-semanux-green);
-  --theme-rose: var(--lm-semanux-rose);
-  --theme-platinum: var(--lm-semanux-platinum);
+  --theme-orange: var(--lm-special-orange);
+  --theme-teal: var(--lm-special-teal);
+  --theme-pink: var(--lm-special-pink);
+  --theme-gray: var(--lm-special-gray);
+  --theme-yellow: var(--lm-special-yellow);
+  --theme-green: var(--lm-special-green);
+  --theme-rose: var(--lm-special-rose);
+  --theme-platinum: var(--lm-special-platinum);
 }
 
 [theme-mode="dark"] {
   --theme-fg: var(--dm-regular-fg);
   --theme-bg: var(--dm-regular-bg-gray);
-  --theme-accent: var(--dm-semanux-gray);
-  --theme-accent-50: var(--dm-semanux-gray-50);
+  --theme-accent: var(--dm-special-gray);
+  --theme-accent-50: var(--dm-special-gray-50);
   --theme-special-fg: var(--dm-special-fg-gray);
-  --theme-accent-fill: var(--dm-semanux-grad-gray);
+  --theme-accent-fill: var(--dm-special-grad-gray);
   --theme-special-bg: var(--dm-special-bg-grad-gray);
   --theme-special-skewed-bg: var(--dm-special-bg-grad-gray-skewed);
-  --theme-stacked-bg: var(--dm-stacked-bg-grad-gray);
+  --theme-special-stacked-bg: var(--dm-special-stacked-bg-grad-gray);
   --theme-shadow: var(--white-25);
   --theme-glass: var(--dm-glass-gray);
   --theme-wave-stroke: var(--white);
@@ -96,12 +96,12 @@
   --theme-success-bg: var(--dm-status-bg-grad-success);
 
   /* Simple colors, i.e., for the trace. */
-  --theme-orange: var(--dm-semanux-orange);
-  --theme-teal: var(--dm-semanux-teal);
-  --theme-pink: var(--dm-semanux-pink);
-  --theme-gray: var(--dm-semanux-gray);
-  --theme-yellow: var(--dm-semanux-yellow);
-  --theme-green: var(--dm-semanux-green);
-  --theme-rose: var(--dm-semanux-rose);
-  --theme-platinum: var(--dm-semanux-platinum);
+  --theme-orange: var(--dm-special-orange);
+  --theme-teal: var(--dm-special-teal);
+  --theme-pink: var(--dm-special-pink);
+  --theme-gray: var(--dm-special-gray);
+  --theme-yellow: var(--dm-special-yellow);
+  --theme-green: var(--dm-special-green);
+  --theme-rose: var(--dm-special-rose);
+  --theme-platinum: var(--dm-special-platinum);
 }

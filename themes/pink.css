@@ -1,24 +1,24 @@
 [theme-color="pink"][theme-mode="light"] {
-  --theme-accent: var(--lm-semanux-pink);
-  --theme-accent-50: var(--lm-semanux-pink-50);
+  --theme-accent: var(--lm-special-pink);
+  --theme-accent-50: var(--lm-special-pink-50);
   --theme-special-fg: var(--lm-special-fg-pink);
-  --theme-accent-fill: var(--lm-semanux-grad-pink);
+  --theme-accent-fill: var(--lm-special-grad-pink);
   --theme-special-bg: var(--lm-special-bg-grad-pink);
   --theme-special-skewed-bg: var(--lm-special-bg-grad-pink-skewed);
-  --theme-stacked-bg: var(--lm-stacked-bg-grad-pink);
+  --theme-special-stacked-bg: var(--lm-special-stacked-bg-grad-pink);
   --theme-glass: var(--lm-glass-pink);
 }
 
 [theme-color="pink"][theme-mode="dark"] {
   --theme-bg: var(--dm-regular-bg-pink);
-  --theme-accent: var(--dm-semanux-pink);
-  --theme-accent-50: var(--dm-semanux-pink-50);
+  --theme-accent: var(--dm-special-pink);
+  --theme-accent-50: var(--dm-special-pink-50);
   --theme-special-fg: var(--dm-special-fg-pink);
-  --theme-accent-fill: var(--dm-semanux-grad-pink);
+  --theme-accent-fill: var(--dm-special-grad-pink);
   --theme-special-bg: var(--dm-special-bg-grad-pink);
   --theme-special-skewed-bg: var(--dm-special-bg-grad-pink-skewed);
-  --theme-stacked-bg: var(--dm-stacked-bg-grad-pink);
+  --theme-special-stacked-bg: var(--dm-special-stacked-bg-grad-pink);
   --theme-shadow: var(--dm-special-fg-pink-25);
   --theme-glass: var(--dm-glass-pink);
-  --theme-wave-stroke: var(--lm-semanux-grad-pink);
+  --theme-wave-stroke: var(--lm-special-grad-pink);
 }

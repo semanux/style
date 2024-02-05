@@ -4,7 +4,7 @@
   --theme-special-fg: var(--he-blue);
   --theme-accent-fill: var(--he-blue);
   --theme-special-bg: var(--he-beige);
-  --theme-stacked-bg: var(--he-beige);
+  --theme-special-stacked-bg: var(--he-beige);
 }
 
 [theme-color="humanelektronik"][theme-mode="dark"] {
@@ -13,5 +13,5 @@
   --theme-special-fg: var(--he-beige);
   --theme-accent-fill: var(--he-beige);
   --theme-special-bg: var(--he-blue);
-  --theme-stacked-bg: var(--he-blue);
+  --theme-special-stacked-bg: var(--he-blue);
 }

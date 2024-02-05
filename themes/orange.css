@@ -1,24 +1,24 @@
 [theme-color="orange"][theme-mode="light"] {
-  --theme-accent: var(--lm-semanux-orange);
-  --theme-accent-50: var(--lm-semanux-orange-50);
+  --theme-accent: var(--lm-special-orange);
+  --theme-accent-50: var(--lm-special-orange-50);
   --theme-special-fg: var(--lm-special-fg-orange);
-  --theme-accent-fill: var(--lm-semanux-grad-orange);
+  --theme-accent-fill: var(--lm-special-grad-orange);
   --theme-special-bg: var(--lm-special-bg-grad-orange);
   --theme-special-skewed-bg: var(--lm-special-bg-grad-orange-skewed);
-  --theme-stacked-bg: var(--lm-stacked-bg-grad-orange);
+  --theme-special-stacked-bg: var(--lm-special-stacked-bg-grad-orange);
   --theme-glass: var(--lm-glass-orange);
 }
 
 [theme-color="orange"][theme-mode="dark"] {
   --theme-bg: var(--dm-regular-bg-orange);
-  --theme-accent: var(--dm-semanux-orange);
-  --theme-accent-50: var(--dm-semanux-orange-50);
+  --theme-accent: var(--dm-special-orange);
+  --theme-accent-50: var(--dm-special-orange-50);
   --theme-special-fg: var(--dm-special-fg-orange);
-  --theme-accent-fill: var(--dm-semanux-grad-orange);
+  --theme-accent-fill: var(--dm-special-grad-orange);
   --theme-special-bg: var(--dm-special-bg-grad-orange);
   --theme-special-skewed-bg: var(--dm-special-bg-grad-orange-skewed);
-  --theme-stacked-bg: var(--dm-stacked-bg-grad-orange);
+  --theme-special-stacked-bg: var(--dm-special-stacked-bg-grad-orange);
   --theme-shadow: var(--dm-special-fg-orange-25);
   --theme-glass: var(--dm-glass-orange);
-  --theme-wave-stroke: var(--lm-semanux-grad-orange);
+  --theme-wave-stroke: var(--lm-special-grad-orange);
 }
