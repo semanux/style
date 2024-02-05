@@ -34,12 +34,20 @@
   --theme-neutral-med: var(--gray);
   --theme-info-fg: var(--lm-status-fg-info);
   --theme-info-bg: var(--lm-status-bg-grad-info);
+  --theme-info: var(--lm-status-grad-info);
+  --theme-info-stacked-bg: var(--lm-status-stacked-bg-grad-info);
   --theme-warning-fg: var(--lm-status-fg-warning);
   --theme-warning-bg: var(--lm-status-bg-grad-warning);
+  --theme-warning: var(--lm-status-grad-warning);
+  --theme-warning-stacked-bg: var(--lm-status-stacked-bg-grad-warning);
   --theme-error-fg: var(--lm-status-fg-error);
   --theme-error-bg: var(--lm-status-bg-grad-error);
+  --theme-error: var(--lm-status-grad-error);
+  --theme-error-stacked-bg: var(--lm-status-stacked-bg-grad-error);
   --theme-success-fg: var(--lm-status-fg-success);
   --theme-success-bg: var(--lm-status-bg-grad-success);
+  --theme-success: var(--lm-status-grad-success);
+  --theme-success-stacked-bg: var(--lm-status-stacked-bg-grad-success);
 
   /* Simple colors, i.e., for the trace. */
   --theme-orange: var(--lm-special-orange);
@@ -88,12 +96,20 @@
   --theme-neutral-med: var(--gray);
   --theme-info-fg: var(--dm-status-fg-info);
   --theme-info-bg: var(--dm-status-bg-grad-info);
+  --theme-info: var(--dm-status-grad-info);
+  --theme-info-stacked-bg: var(--dm-status-stacked-bg-grad-info);
   --theme-warning-fg: var(--dm-status-fg-warning);
   --theme-warning-bg: var(--dm-status-bg-grad-warning);
+  --theme-warning: var(--dm-status-grad-warning);
+  --theme-warning-stacked-bg: var(--dm-status-stacked-bg-grad-warning);
   --theme-error-fg: var(--dm-status-fg-error);
   --theme-error-bg: var(--dm-status-bg-grad-error);
+  --theme-error: var(--dm-status-grad-error);
+  --theme-error-stacked-bg: var(--dm-status-stacked-bg-grad-error);
   --theme-success-fg: var(--dm-status-fg-success);
   --theme-success-bg: var(--dm-status-bg-grad-success);
+  --theme-success: var(--dm-status-grad-success);
+  --theme-success-stacked-bg: var(--dm-status-stacked-bg-grad-success);
 
   /* Simple colors, i.e., for the trace. */
   --theme-orange: var(--dm-special-orange);

@@ -3,6 +3,8 @@
   /* Light mode colors. */
   --lm-regular-bg: #ffffff;
   --lm-regular-fg: #000000;
+
+  /* lm-special */
   --lm-special-orange: #ff763d;
   --lm-special-orange-50: #ff763d7f;
   --lm-special-teal: #05a3bd;
@@ -15,6 +17,8 @@
   --lm-special-green: #3af89a;
   --lm-special-rose: #f47495;
   --lm-special-platinum: #dde4e8;
+
+  /* lm-special-bg */
   --lm-special-bg-orange: #ffd6c5;
   --lm-special-bg-teal: #b4e4eb;
   --lm-special-bg-pink: #f9c0ef;
@@ -24,6 +28,8 @@
   --lm-special-bg-pink: #f9c0ef;
   --lm-special-bg-rose: #fcd6df;
   --lm-special-bg-platinum: #f2f2f3;
+
+  /* lm-special-fg */
   --lm-special-fg-orange: #822400;
   --lm-special-fg-teal: #024a55;
   --lm-special-fg-pink: #720b62;
@@ -31,6 +37,8 @@
   --lm-special-fg-yellow: #564300;
   --lm-special-fg-green: #024f29;
   --lm-special-fg-rose: #7d0a28;
+
+  /* lm-special-stacked */
   --lm-special-stacked-bg-orange: #ffba9c;
   --lm-special-stacked-bg-teal: #80d1dd;
   --lm-special-stacked-bg-pink: #f594e4;
@@ -39,10 +47,24 @@
   --lm-special-stacked-bg-green: #9bfccc;
   --lm-special-stacked-bg-rose: #fab7cb;
   --lm-special-stacked-bg-platinum: #e8e8ea;
+
+  /* lm-status */
+  --lm-status-info-1: #2969ff;
+  --lm-status-info-2: #00dada;
+  --lm-status-warning-1: #f5e400;
+  --lm-status-warning-2: #ff8e00;
+  --lm-status-error-1: #ff0000;
+  --lm-status-error-2: #ff0000;
+  --lm-status-success-1: #00ff00;
+  --lm-status-success-2: #c0e400;
+
+  /* lm-status-fg */
   --lm-status-fg-info: #003951;
   --lm-status-fg-warning: #5e4201;
   --lm-status-fg-error: #490000;
   --lm-status-fg-success: #005a07;
+
+  /* lm-status-bg */
   --lm-status-bg-info-1: #8dc9ff;
   --lm-status-bg-info-2: #aff4f4;
   --lm-status-bg-warning-1: #fcf785;
@@ -51,6 +73,16 @@
   --lm-status-bg-error-2: #ffb059;
   --lm-status-bg-success-1: #a0ffa8;
   --lm-status-bg-success-2: #ecf783;
+
+  /* lm-status-stacked-bg */
+  --lm-status-stacked-bg-info-1: #6facff;
+  --lm-status-stacked-bg-info-2: #7becec;
+  --lm-status-stacked-bg-warning-1: #faf15d;
+  --lm-status-stacked-bg-warning-2: #ffc552;
+  --lm-status-stacked-bg-error-1: #ff5e62;
+  --lm-status-stacked-bg-error-2: #ff7c3e;
+  --lm-status-stacked-bg-success-1: #70ff76;
+  --lm-status-stacked-bg-success-2: #dff15c;
 
   /* Defined as special lm color with 10% opacity over white and itself an alpha of 95%. */
   --lm-glass-orange: #fff1ebf2;
@@ -75,18 +107,33 @@
   --lm-special-stacked-bg-grad-teal: linear-gradient(to right, #80d1dd 0%, #9bfccc 100%);
   --lm-special-stacked-bg-grad-pink: linear-gradient(to right, #f594e4 0%, #f7a2da 20%, #f9b0d0 42%, #fab7cb 100%);
   --lm-special-stacked-bg-grad-gray: linear-gradient(to right, #c0c6c9 0%, #e8e8ea 100%);
+
+  --lm-status-grad-info: linear-gradient(to right, #2969ff 0%, #00dada 100%);
+  --lm-status-grad-warning: linear-gradient(to right, #f5e400 0%, #ff8e00 100%);
+  --lm-status-grad-error: linear-gradient(to right, #ff0000 0%, #ff0000 100%);
+  --lm-status-grad-success: linear-gradient(to right, #00ff00 0%, #c0e400 100%);
+
   --lm-status-bg-grad-info: linear-gradient(to right, #8dc9ff 0%, #aff4f4 100%);
   --lm-status-bg-grad-warning: linear-gradient(to right, #fcf785 0%, #ffdd75 100%);
   --lm-status-bg-grad-error: linear-gradient(to right, #ff868b 0%, #ffb059 100%);
   --lm-status-bg-grad-success: linear-gradient(to right, #a0ffa8 0%, #ecf783 100%);
 
+  --lm-status-stacked-bg-grad-info: linear-gradient(to right, #6facff 0%, #7becec 100%);
+  --lm-status-stacked-bg-grad-warning: linear-gradient(to right, #faf15d 0%, #ffc552 100%);
+  --lm-status-stacked-bg-grad-error: linear-gradient(to right, #ff5e62 0%, #ff7c3e 100%);
+  --lm-status-stacked-bg-grad-success: linear-gradient(to right, #70ff76 0%, #dff15c 100%);
+
   /* Dark mode colors. */
   --dm-regular-bg-orange: #2c0000;
   --dm-regular-bg-teal: #23242f;
+
+  /* dm-regular */
   --dm-regular-bg-pink: #28000d;
   --dm-regular-bg-gray: #333132;
   --dm-regular-bg: #000000;
   --dm-regular-fg: #ffffff;
+
+  /* dm-special */
   --dm-special-orange: #ab4725;
   --dm-special-orange-50: #ab47257f;
   --dm-special-teal: #117084;
@@ -99,6 +146,8 @@
   --dm-special-green: #2d835f;
   --dm-special-rose: #a2465f;
   --dm-special-platinum: #747476;
+
+  /* dm-special-bg */
   --dm-special-bg-orange: #6b2312;
   --dm-special-bg-teal: #1a4a59;
   --dm-special-bg-pink: #620d46;
@@ -107,6 +156,8 @@
   --dm-special-bg-green: #295849;
   --dm-special-bg-rose: #652336;
   --dm-special-bg-platinum: #535354;
+
+  /* dm-special-fg */
   --dm-special-fg-orange: #ffdbcd;
   --dm-special-fg-orange-25: #ffdbcd40;
   --dm-special-fg-teal: #caf6fd;
@@ -118,6 +169,8 @@
   --dm-special-fg-yellow: #ffe174;
   --dm-special-fg-green: #bdfcdd;
   --dm-special-fg-rose: #f9bccc;
+
+  /* dm-special-stacked-bg */
   --dm-special-stacked-bg-orange: #973e1e;
   --dm-special-stacked-bg-teal: #146577;
   --dm-special-stacked-bg-pink: #8b176e;
@@ -126,10 +179,24 @@
   --dm-special-stacked-bg-green: #2d805d;
   --dm-special-stacked-bg-rose: #903b52;
   --dm-special-stacked-bg-platinum: #6b6b6c;
+
+  /* dm-status */
+  --dm-status-info-1: #2d53ad;
+  --dm-status-info-2: #118484;
+  --dm-status-warning-1: #a79c14;
+  --dm-status-warning-2: #ad6914;
+  --dm-status-error-1: #ad1414;
+  --dm-status-error-2: #ad1414;
+  --dm-status-success-1: #108910;
+  --dm-status-success-2: #6f7d10;
+
+  /* dm-status-fg */
   --dm-status-fg-info: #dffafb;
   --dm-status-fg-warning: #fff0da;
   --dm-status-fg-error: #ffd0b1;
   --dm-status-fg-success: #e0e7b4;
+
+  /* dm-status-bg */
   --dm-status-bg-info-1: #00666e;
   --dm-status-bg-info-2: #00497e;
   --dm-status-bg-warning-1: #8a6900;
@@ -138,6 +205,16 @@
   --dm-status-bg-error-2: #590000;
   --dm-status-bg-success-1: #01512d;
   --dm-status-bg-success-2: #3a5709;
+
+  /* dm-status-stacked-bg */
+  --dm-status-stacked-bg-info-1: #0b509a;
+  --dm-status-stacked-bg-info-2: #00797e;
+  --dm-status-stacked-bg-warning-1: #8c7400;
+  --dm-status-stacked-bg-warning-2: #ab5700;
+  --dm-status-stacked-bg-error-1: #a21000;
+  --dm-status-stacked-bg-error-2: #8a0000;
+  --dm-status-stacked-bg-success-1: #00711b;
+  --dm-status-stacked-bg-success-2: #526c05;
 
   /* Defined as special lm (!) color with 10% opacity over black and itself an alpha of 95%. */
   --dm-glass-orange: #1a0c06f2;
@@ -162,10 +239,21 @@
   --dm-special-stacked-bg-grad-teal: linear-gradient(to right, #146577 0%, #2d805d 100%);
   --dm-special-stacked-bg-grad-pink: linear-gradient(to right, #8b176e 0%, #8d2563 20%, #8f3457 42%, #903b52 100%);
   --dm-special-stacked-bg-grad-gray: linear-gradient(to right, #4a484a 0%, #515052 53%, #6b6b6c 100%);
+
+  --dm-status-grad-info: linear-gradient(to right, #2d53ad 0%, #118484 100%);
+  --dm-status-grad-warning: linear-gradient(to right, #a79c14 0%, #ad6914 100%);
+  --dm-status-grad-error: linear-gradient(to right, #ad1414 0%, #ad1414 100%);
+  --dm-status-grad-success: linear-gradient(to right, #108910 0%, #6f7d10 100%);
+
   --dm-status-bg-grad-info: linear-gradient(to right, #00497e 0%, #00666e 100%);
   --dm-status-bg-grad-warning: linear-gradient(to right, #8a6900 0%, #874000 100%);
   --dm-status-bg-grad-error: linear-gradient(to right, #981c00 0%, #590000 100%);
   --dm-status-bg-grad-success: linear-gradient(to right, #01512d 0%, #3a5709 100%);
+
+  --dm-status-stacked-bg-grad-info: linear-gradient(to right, #0b509a 0%, #00797e 100%);
+  --dm-status-stacked-bg-grad-warning: linear-gradient(to right, #8c7400 0%, #ab5700 100%);
+  --dm-status-stacked-bg-grad-error: linear-gradient(to right, #a21000 0%, #8a0000 100%);
+  --dm-status-stacked-bg-grad-success: linear-gradient(to right, #00711b 0%, #526c05 100%);
 
   /* Blacks. */
   --black: black;
