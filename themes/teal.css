@@ -1,8 +1,8 @@
 [theme-color="teal"][theme-mode="light"] {
-  --theme-accent: var(--lm-special-teal);
-  --theme-accent-50: var(--lm-special-teal-50);
+  --theme-special: var(--lm-special-teal);
+  --theme-special-50: var(--lm-special-teal-50);
   --theme-special-fg: var(--lm-special-fg-teal);
-  --theme-accent-fill: var(--lm-special-grad-teal);
+  --theme-special-grad: var(--lm-special-grad-teal);
   --theme-special-bg: var(--lm-special-bg-grad-teal);
   --theme-special-skewed-bg: var(--lm-special-bg-grad-teal-skewed);
   --theme-special-stacked-bg: var(--lm-special-stacked-bg-grad-teal);
@@ -11,10 +11,10 @@
 
 [theme-color="teal"][theme-mode="dark"] {
   --theme-bg: var(--dm-regular-bg-teal);
-  --theme-accent: var(--dm-special-teal);
-  --theme-accent-50: var(--dm-special-teal-50);
+  --theme-special: var(--dm-special-teal);
+  --theme-special-50: var(--dm-special-teal-50);
   --theme-special-fg: var(--dm-special-fg-teal);
-  --theme-accent-fill: var(--dm-special-grad-teal);
+  --theme-special-grad: var(--dm-special-grad-teal);
   --theme-special-bg: var(--dm-special-bg-grad-teal);
   --theme-special-skewed-bg: var(--dm-special-bg-grad-teal-skewed);
   --theme-special-stacked-bg: var(--dm-special-stacked-bg-grad-teal);
