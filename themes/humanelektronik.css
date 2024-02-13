@@ -3,6 +3,7 @@
   --theme-special-50: var(--he-blue-50);
   --theme-special-fg: var(--he-blue);
   --theme-special-grad: var(--he-blue);
+  --theme-special-skewed-grad: var(--he-blue);
   --theme-special-bg: var(--he-beige);
   --theme-special-stacked-bg: var(--he-beige);
 }
@@ -12,6 +13,7 @@
   --theme-special-50: var(--he-beige-50);
   --theme-special-fg: var(--he-beige);
   --theme-special-grad: var(--he-beige);
+  --theme-special-skewed-grad: var(--he-beige);
   --theme-special-bg: var(--he-blue);
   --theme-special-stacked-bg: var(--he-blue);
 }

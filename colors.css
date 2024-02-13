@@ -95,6 +95,10 @@
   --lm-special-grad-teal: linear-gradient(to right, #05a3bd 0%, #3af89a 100%);
   --lm-special-grad-pink:  linear-gradient(to right, #ea2dcb 0%, #ee49b5 20%, #f2669f 42%, #f47495 100%);
   --lm-special-grad-gray: linear-gradient(to right, #8e979d 0%, #dde4e8 100%);
+  --lm-special-grad-orange-skewed: linear-gradient(45deg, #ff763d 0%, #ff9a35 20%, #ffbf2d 42%, #ffd129 100%);
+  --lm-special-grad-teal-skewed: linear-gradient(45deg, #05a3bd 0%, #3af89a 100%);
+  --lm-special-grad-pink-skewed:  linear-gradient(45deg, #ea2dcb 0%, #ee49b5 20%, #f2669f 42%, #f47495 100%);
+  --lm-special-grad-gray-skewed: linear-gradient(45deg, #8e979d 0%, #dde4e8 100%);
   --lm-special-bg-grad-orange: linear-gradient(to right, #ffd6c5 0%, #ffecbf 42%, #fff1be 100%);
   --lm-special-bg-grad-teal: linear-gradient(to right, #b4e4eb 0%, #c3fde1 100%);
   --lm-special-bg-grad-pink: linear-gradient(to right, #f9c0ef 0%, #fac9e9 20%, #fcd6df 100%);
@@ -227,6 +231,10 @@
   --dm-special-grad-teal: linear-gradient(to right, #117084 0%, #2d835f 100%);
   --dm-special-grad-pink: linear-gradient(to right, #9c1b7f 0%, #9e2c72 20%, #a13e65 42%, #a2465f 100%);
   --dm-special-grad-gray: linear-gradient(to right, #454446 0%, #747476 100%);
+  --dm-special-grad-orange-skewed: linear-gradient(45deg, #ab4725 0%, #9e501e 20%, #905916 42%, #8a5d12 100%);
+  --dm-special-grad-teal-skewed: linear-gradient(45deg, #117084 0%, #2d835f 100%);
+  --dm-special-grad-pink-skewed: linear-gradient(45deg, #9c1b7f 0%, #9e2c72 20%, #a13e65 42%, #a2465f 100%);
+  --dm-special-grad-gray-skewed: linear-gradient(45deg, #454446 0%, #747476 100%);
   --dm-special-bg-grad-orange: linear-gradient(to right, #6b2312 0%, #6b2e10 20%, #6b390d 42%, #6b3e0c 100%);
   --dm-special-bg-grad-teal: linear-gradient(to right, #1a4a59 0%, #295849 100%);
   --dm-special-bg-grad-pink: linear-gradient(to right, #620d46 0%, #631640 20%, #652336 100%);
