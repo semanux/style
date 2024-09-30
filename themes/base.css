@@ -14,8 +14,6 @@
   --theme-wave-stroke: var(--black);
 
   /* Colors that are usually not touched by a theme. */
-  --theme-dwell: var(--black-50);
-  --theme-trigger: var(--black-50);
   --theme-high-contrast: var(--dark-gray);
   --theme-higher-contrast: var(--darker-gray);
   --theme-highest-contrast: var(--black);
@@ -77,8 +75,6 @@
   --theme-wave-stroke: var(--white);
 
   /* Colors that are usually not touched by a theme. */
-  --theme-dwell: var(--white-50);
-  --theme-trigger: var(--white-50);
   --theme-high-contrast: var(--gray);
   --theme-higher-contrast: var(--lighter-gray);
   --theme-highest-contrast: var(--white);
